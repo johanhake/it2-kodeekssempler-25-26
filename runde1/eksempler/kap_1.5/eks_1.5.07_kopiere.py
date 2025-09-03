@@ -6,6 +6,9 @@ b = a
 print(f'a is b: {a is b}')
 print(f'a == b: {a == b}')
 
+# b[0]=5
+# print(a)
+
 # Kopi!
 c = a.copy()
 print(f'a is c: {a is c}')

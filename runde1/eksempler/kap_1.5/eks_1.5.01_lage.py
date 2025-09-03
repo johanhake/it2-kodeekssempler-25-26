@@ -6,17 +6,17 @@ print(len(venner))
 print(tall, '\n')
 
 # Ole
-print(venner)
+print(venner[0])
 
 # Donald
-print(venner)
+print(venner[1])
 
 # Doffen
-print(venner, '\n')
+print(venner[-1], '\n')
 
 # ['Ole','Dole','Doffen']
-# venner[...] = 'Dole'
+venner[1] = 'Dole'
 print(venner)
 
 # antall elementer er: 3
-print("antall elementer er:")
+print("antall elementer er:", len(venner))
