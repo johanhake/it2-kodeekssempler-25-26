@@ -11,8 +11,11 @@ print('kan du trykke Enter uten å skrive noe.')
 tall = []
 while True:
     tekst_inn = input('Skriv inn et helttall: ')
-    tall.append(int(tekst_inn))
-    print(f'Du skrev inn {tekst_inn}')
+    try:
+        tall.append(int(tekst_inn))
+        print(f'Du skrev inn {tekst_inn}') # Vil ikke kjøres hvis feil oppstår på linje over. 
+    except: 
+        print("Det du skrev inn er ikke et heltall")
     if tekst_inn == '':
         print("Vi slutter!")
         break
