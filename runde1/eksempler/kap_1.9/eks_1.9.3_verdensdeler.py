@@ -21,7 +21,7 @@ with open("2019.csv") as fil:
     # Går igjennom alle verdensdeler
     gjennomsnitt = []
     for verdensdel in verdensdeler:
-        print("\nALLE LENDER I:", verdensdel)
+        print("\nALLE LAND I:", verdensdel)
         kost_verdier = []
         for d in filtrerte_data:
             if d[0] == verdensdel:
