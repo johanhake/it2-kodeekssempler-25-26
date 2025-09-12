@@ -1,0 +1,27 @@
+@startuml
+class object {
+  + __str__()
+  + __repr__()
+}
+
+class int {
+  + __add__()
+  + __sub__()
+  + __mul__()
+  + __truediv__()
+  + __floordiv__()
+  + __mod__()
+  + __pow__()
+  + __eq__()
+/'  + __lt__()
+  // arver __str__() og __repr__()'/
+}
+
+class bool {
+  + __bool__()  // finnes kun her
+  /'// arver __str__() og __repr__()'/
+}
+
+object <|-- int
+int <|-- bool
+@enduml
