@@ -1,0 +1,18 @@
+@startuml person
+class Person {
+    personnummer: int
+    navn: str
+}
+
+class Lærer {
+    lønn: int
+}
+
+class Elev {
+    karakter: int
+}
+note top of Person: Generalisering
+    
+Person <|-- Lærer
+Person <|-- Elev
+@enduml
