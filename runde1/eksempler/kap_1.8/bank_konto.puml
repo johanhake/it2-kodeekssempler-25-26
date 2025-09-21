@@ -1,0 +1,22 @@
+@startuml bankkont
+class Bankkonto {
+    kontonummer: int
+    navn: str
+    sett_inn_penger(beløp): None
+    ta_ut_penger(): int
+}
+
+class BSUkonto {
+    maks_beløp: int
+}
+
+class Høyrentekonto {
+    maks_antall_uttak: int
+}
+
+note bottom of BSUkonto: Spesialisering
+note bottom of Høyrentekonto: Spesialisering
+    
+Bankkonto <|-- BSUkonto
+Bankkonto <|-- Høyrentekonto
+@enduml
