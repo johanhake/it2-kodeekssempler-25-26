@@ -27,6 +27,7 @@ venner.sort(key=lengde)
 print()
 print(venner)
 
+# Henter ut det andre alder (element med indeks 1)
 def alder(l):
     return l[1]
 
