@@ -28,5 +28,22 @@ with open("2019.csv") as fil:
                 kost_verdier.append(d[ind_kost])
                 
         gjennomsnitt.append([verdensdel, int(sum(kost_verdier)/len(kost_verdier))])
-    
+        
     print(gjennomsnitt)
+    
+    # Henter ut alle kostverdier fra Asia
+    lender_asia = []
+    for d in filtrerte_data:
+        if d[0] == "Asia":
+            lender_asia.append(d)
+    
+    # Key funksjon for å sortere etter kost
+    def kost_key(d):
+        return d[ind_kost]
+    
+    # Sorterer fra størst til minst etter kost
+    lender_asia_størst_minst = sorted(lender_asia, key=kost_key, reverse=True)
+    
+    # Skriver ut de tre lendene med størst kost
+    for land in lender_asia_størst_minst[:3]:
+        print(f"Land: {land[1]} kost: {land[ind_kost]}")
