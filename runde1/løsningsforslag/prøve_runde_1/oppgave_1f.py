@@ -1,0 +1,1 @@
+# Programmet kan fortsatt gi meningsløse svar ettersom man kan skrive inn 0 eller negative tall for høyde og vekt. Det kan ogs bli feil ved at man skriver inn desimaltall for de blir prøvd endret till heltall. 

@@ -1,0 +1,7 @@
+personer = [
+    {'navn':'Knut' ,'alder':32},
+    {'navn':'Tiril','alder':28},
+    {'navn':'Anne' ,'alder':41},
+    {'navn':'Oscar','alder':35}
+]
+

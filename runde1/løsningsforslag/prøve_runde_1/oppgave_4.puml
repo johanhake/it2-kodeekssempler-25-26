@@ -1,0 +1,11 @@
+@startuml kjøretøy
+class Kjøretøy {
+    reg_nr: str
+    vekt: float 
+    skriv_ut_vognkort(): None
+}
+
+' Kjøretøy er navnet på klassen
+' reg_nr og vekt er egenskaper som kan ses på som verdier eller variabler som hører til klassen
+' skriv_ut_vognkort er en metode som "gjør noe"
+@enduml
