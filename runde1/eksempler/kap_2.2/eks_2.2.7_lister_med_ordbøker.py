@@ -8,6 +8,7 @@ personer = [
 #a = personer[2]
 #print(a["navn"], a["alder"])
 
+# Nøkkel funksjon som henter ut verdien til alder fra et element. 
 def key_alder(a):
     return a["alder"]
 
