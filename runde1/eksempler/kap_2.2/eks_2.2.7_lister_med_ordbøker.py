@@ -14,3 +14,4 @@ def key_alder(a):
 
 for a in sorted(personer, key=key_alder, reverse=True):
     print(a['navn'], a['alder'])
+    #print(*a.values())
