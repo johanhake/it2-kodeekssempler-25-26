@@ -5,8 +5,6 @@ n = 10
 print(a, b, end=" ")
 for i in range(2,n):
     # Skriv de neste tre linjene på EN linje!
-    c = a+b
-    a = b
-    b = c
+    a, b = b, a + b
     print(b, end=" ")
     
