@@ -4,14 +4,11 @@ def f(x):
 def jada():
     print("JADA")
     
-def bada(a, b=1):
-    return a*"JADA"+b*"BADA"
+def bada(a=1, b=0, c=0):
+    return a*"JADA"+b*"BADA"+c*"SNADA"
 
 
-print(f()+2*f())
-
+print(f(2)+2*f(3))
 print(jada())
-
-print(bada("JADA"))
-
-print(bada(-2, 3))
+print(bada(2, 5))
+print(bada(b=3,a=2))

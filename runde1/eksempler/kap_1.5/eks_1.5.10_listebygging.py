@@ -7,9 +7,9 @@ tall = [x for x in range(1, 101) if "2" in str(x)]
 print("\nTall med siffer 2:", end="")
 print(tall)
 
-# tabell = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-# print("\nTabell:")
-# for rad in tabell:
-#     print(rad)
-# flat_liste = [tall for rad in tabell for tall in rad]
-# print("\nFlat liste:\n", flat_liste)
+tabell = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print("\nTabell:")
+for rad in tabell:
+    print(rad)
+flat_liste = [tall for rad in tabell for tall in rad]
+print("\nFlat liste:\n", flat_liste)
