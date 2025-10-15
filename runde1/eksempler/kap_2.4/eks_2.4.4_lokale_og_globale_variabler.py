@@ -62,3 +62,17 @@ pris = 2499
 print(f'Pris: {pris:7.2f}, rabatt: {rabatt(pris):7.2f}')
 rabatt_grense = 2000
 print(f'Pris: {pris:7.2f}, rabatt: {rabatt(pris):7.2f}')
+
+# Fiks 
+def rabatt(pris: float, rabatt_grense:float=1000, rabatt_prosent:float=20) -> float:
+    if pris > rabatt_grense:
+        rabatt = (pris-rabatt_grense)*rabatt_prosent/100
+    else:
+        rabatt = 0
+    return rabatt
+
+
+pris = 2499
+print(f'Pris: {pris:7.2f}, rabatt: {rabatt(pris):7.2f}')
+rabatt_grense = 2000
+print(f'Pris: {pris:7.2f}, rabatt: {rabatt(pris, rabatt_grense=2000):7.2f}')
