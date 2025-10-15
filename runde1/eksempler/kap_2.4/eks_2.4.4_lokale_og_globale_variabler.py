@@ -8,7 +8,7 @@ print("Eksempel 1")
 global_var = "Jeg er global."
 print(f'Utenfor, før funksjonskallet: {global_var}')
 eksempel_1()
-print(local_var)
+print(lokal_var)
 
 
 def eksempel_2():
@@ -26,14 +26,14 @@ print(f'Utenfor, etter funksjonskallet: {global_var}')
 def eksempel_3():
     global global_var
     global_var = "Jeg har blitt endret."
-    print(f"Inni funksjonen,: {global_var} ID: {id(global_var)}")
+    print(f"Inni funksjonen,: {global_var}") # ID: {id(global_var)}")
 
 
 print("\nEksempel 3:")
 global_var = "Jeg er global."
-print(f'Utenfor, før funksjonskallet: {global_var} ID: {id(global_var)}')
+print(f'Utenfor, før funksjonskallet: {global_var}')# ID: {id(global_var)}')
 eksempel_3()
-print(f'Utenfor, etter funksjonskallet: {global_var} ID: {id(global_var)}')
+print(f'Utenfor, etter funksjonskallet: {global_var}')# ID: {id(global_var)}')
 
 
 def eksempel_4():
@@ -44,12 +44,6 @@ def eksempel_4():
     print(
         f'{tekst} {globals()["global_var"]} ID: {id(globals()["global_var"])}')
 
-
-print("\nEksempel 4:")
-global_var = "Jeg er global."
-print(f'Utenfor, før funksjonskallet: {global_var} ID: {id(global_var)}')
-eksempel_4()
-print(f'Utenfor, etter funksjonskallet: {global_var} ID: {id(global_var)}')
 
 print("\nEksempel Rabatt:")
 rabatt_grense = 1000
@@ -68,5 +62,3 @@ pris = 2499
 print(f'Pris: {pris:7.2f}, rabatt: {rabatt(pris):7.2f}')
 rabatt_grense = 2000
 print(f'Pris: {pris:7.2f}, rabatt: {rabatt(pris):7.2f}')
-
-# Smidig IT-2 © TIP AS, 2024
