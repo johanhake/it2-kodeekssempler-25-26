@@ -8,7 +8,7 @@ print("Eksempel 1")
 global_var = "Jeg er global."
 print(f'Utenfor, før funksjonskallet: {global_var}')
 eksempel_1()
-print(lokal_var)
+#print(lokal_var) - gir feil
 
 
 def eksempel_2():
