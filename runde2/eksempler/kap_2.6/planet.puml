@@ -1,0 +1,10 @@
+@startuml planet
+class Planet {
+    navn: str
+    solavstand: float
+    radius: float
+    antall_ringer: int
+    vis_info(): None
+    volum(): float
+}
+@enduml
