@@ -10,6 +10,9 @@ class Planet:
     def vis_info(self):
         print(f"Planeten {self.navn} er {self.solavstand} M km fra solen og har {self.antall_ringer} ringer")
         
+    def volum(self):
+        return((4*m.pi*self.radius**3)/3)
+        
 if __name__ == "__main__":
     mars = Planet("Mars", 227.9, 3389.5)
     jupiter = Planet("Jupiter", 778.5, 69911, 4)
