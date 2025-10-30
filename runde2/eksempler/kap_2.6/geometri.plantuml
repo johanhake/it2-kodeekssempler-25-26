@@ -1,0 +1,28 @@
+@startuml Geometri2D
+
+class Geometri2D{
+    areal: float
+    omkrets: float
+    navn: str
+    __str__(): str
+
+}
+
+class Kvadrat{
+    side: float
+}
+
+class Rektangel{
+    lengde: float 
+    bredde: float 
+}
+
+class Sirkel{
+    radius: float 
+}
+
+Geometri2D <|-- Kvadrat
+Geometri2D <|-- Rektangel 
+Geometri2D <|-- Sirkel
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml dyr
+class Dyr {
+    navn: str
+    dyr: str
+    hils(): None
+}
+
+class Hund {
+    hils()
+}
+
+class Katt {
+    hils()
+}
+Dyr <|-- Hund 
+Dyr <|-- Katt
+@enduml
