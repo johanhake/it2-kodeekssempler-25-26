@@ -7,3 +7,6 @@ sirkel = Sirkel(4)
 print(kvadrat)
 print(rektangel)
 print(sirkel)
+
+print(kvadrat + kvadrat)
+
