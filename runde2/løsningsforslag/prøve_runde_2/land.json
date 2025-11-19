@@ -1,0 +1,1502 @@
+[
+    {
+        "navn": "Barbados",
+        "hovedstad": "Bridgetown",
+        "innbyggere": 287371,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Réunion",
+        "hovedstad": "Saint-Denis",
+        "innbyggere": 840974,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Surinavn",
+        "hovedstad": "Paramaribo",
+        "innbyggere": 586634,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Namibia",
+        "hovedstad": "Windhoek",
+        "innbyggere": 2540916,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Guinea",
+        "hovedstad": "Conakry",
+        "innbyggere": 13132792,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Vanuatu",
+        "hovedstad": "Port Vila",
+        "innbyggere": 307150,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Samoa",
+        "hovedstad": "Apia",
+        "innbyggere": 198410,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "France",
+        "hovedstad": "Paris",
+        "innbyggere": 67391582,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Andorra",
+        "hovedstad": "Andorra la Vella",
+        "innbyggere": 77265,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Azerbaijan",
+        "hovedstad": "Baku",
+        "innbyggere": 10110116,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Maldives",
+        "hovedstad": "Malé",
+        "innbyggere": 540542,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "ēlynesia",
+        "hovedstad": "Papeetē",
+        "innbyggere": 280904,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Saint Lucia",
+        "hovedstad": "Castries",
+        "innbyggere": 183629,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Panama",
+        "hovedstad": "Panama City",
+        "innbyggere": 4314768,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Timor-Leste",
+        "hovedstad": "Dili",
+        "innbyggere": 1318442,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "North Macedonia",
+        "hovedstad": "Skopje",
+        "innbyggere": 2077132,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Denmark",
+        "hovedstad": "Copenhagen",
+        "innbyggere": 5831404,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Egypt",
+        "hovedstad": "Cairo",
+        "innbyggere": 102334403,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Estonia",
+        "hovedstad": "Tallinn",
+        "innbyggere": 1331057,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Czechia",
+        "hovedstad": "Prague",
+        "innbyggere": 10698896,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Bahamas",
+        "hovedstad": "Nassau",
+        "innbyggere": 393248,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Uruguay",
+        "hovedstad": "Montevideo",
+        "innbyggere": 3473727,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Åland Islands",
+        "hovedstad": "Mariehamn",
+        "innbyggere": 29458,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Comoros",
+        "hovedstad": "Moroni",
+        "innbyggere": 869595,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Cook Islands",
+        "hovedstad": "Avarua",
+        "innbyggere": 18100,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Costa Rica",
+        "hovedstad": "San José",
+        "innbyggere": 5094114,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Togo",
+        "hovedstad": "Lomé",
+        "innbyggere": 8278737,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "São Tomé and Príncipe",
+        "hovedstad": "São Tomé",
+        "innbyggere": 219161,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Netherlands",
+        "hovedstad": "Amsterdam",
+        "innbyggere": 16655799,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Hong Kong",
+        "hovedstad": "City of Victoria",
+        "innbyggere": 7500700,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Australia",
+        "hovedstad": "Canberra",
+        "innbyggere": 25687041,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Malaysia",
+        "hovedstad": "Kuala Lumpur",
+        "innbyggere": 32365998,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Nepal",
+        "hovedstad": "Kathmandu",
+        "innbyggere": 29136808,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Cuba",
+        "hovedstad": "Havana",
+        "innbyggere": 11326616,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "North Korea",
+        "hovedstad": "Pyongyang",
+        "innbyggere": 25778815,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "French Guiana",
+        "hovedstad": "Cayenne",
+        "innbyggere": 254541,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Moldova",
+        "hovedstad": "Chișinău",
+        "innbyggere": 2617820,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Zambia",
+        "hovedstad": "Lusaka",
+        "innbyggere": 18383956,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Dominica",
+        "hovedstad": "Roseau",
+        "innbyggere": 71991,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Marshall Islands",
+        "hovedstad": "Majuro",
+        "innbyggere": 59194,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Tonga",
+        "hovedstad": "Nuku'alofa",
+        "innbyggere": 105697,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Peru",
+        "hovedstad": "Lima",
+        "innbyggere": 32971846,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Cape Verde",
+        "hovedstad": "Praia",
+        "innbyggere": 555988,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Kiribati",
+        "hovedstad": "South Tarawa",
+        "innbyggere": 119446,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Finland",
+        "hovedstad": "Helsinki",
+        "innbyggere": 5530719,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Ivory Coast",
+        "hovedstad": "Yamoussoukro",
+        "innbyggere": 26378275,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Martinique",
+        "hovedstad": "Fort-de-France",
+        "innbyggere": 378243,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Pakistan",
+        "hovedstad": "Islamabad",
+        "innbyggere": 220892331,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Djibouti",
+        "hovedstad": "Djibouti",
+        "innbyggere": 988002,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Turks and Caicos Islands",
+        "hovedstad": "Cockburn Town",
+        "innbyggere": 38718,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Micronesia",
+        "hovedstad": "Palikir",
+        "innbyggere": 115021,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Slovenia",
+        "hovedstad": "Ljubljana",
+        "innbyggere": 2100126,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Kyrgyzstan",
+        "hovedstad": "Bishkek",
+        "innbyggere": 6591600,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Caribbean Netherlands",
+        "hovedstad": "Kralendijk",
+        "innbyggere": 25987,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "French Southern and Antarctic Lands",
+        "hovedstad": "Port-aux-Français",
+        "innbyggere": 400,
+        "kontinent": "Antarktis"
+    },
+    {
+        "navn": "Saint Barthélemy",
+        "hovedstad": "Gustavia",
+        "innbyggere": 4255,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Switzerland",
+        "hovedstad": "Bern",
+        "innbyggere": 8654622,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Kuwait",
+        "hovedstad": "Kuwait City",
+        "innbyggere": 4270563,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Seychelles",
+        "hovedstad": "Victoria",
+        "innbyggere": 98462,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "United Kingdom",
+        "hovedstad": "London",
+        "innbyggere": 67215293,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "United States Virgin Islands",
+        "hovedstad": "Charlotte Amalie",
+        "innbyggere": 106290,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Fiji",
+        "hovedstad": "Suva",
+        "innbyggere": 896444,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Yemen",
+        "hovedstad": "Sana'a",
+        "innbyggere": 29825968,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "British Virgin Islands",
+        "hovedstad": "Road Town",
+        "innbyggere": 30237,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Bouvet Island",
+        "hovedstad": "",
+        "innbyggere": 0,
+        "kontinent": "Antarktis"
+    },
+    {
+        "navn": "Central Afrikan Republic",
+        "hovedstad": "Bangui",
+        "innbyggere": 4829764,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Belgium",
+        "hovedstad": "Brussels",
+        "innbyggere": 11555997,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Curaçao",
+        "hovedstad": "Willemstad",
+        "innbyggere": 155014,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Argentina",
+        "hovedstad": "Buenos Aires",
+        "innbyggere": 45376763,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Madagascar",
+        "hovedstad": "Antananarivo",
+        "innbyggere": 27691019,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "South Afrika",
+        "hovedstad": "Pretoria",
+        "innbyggere": 59308690,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Latvia",
+        "hovedstad": "Riga",
+        "innbyggere": 1901548,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Zimbabwe",
+        "hovedstad": "Harare",
+        "innbyggere": 14862927,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Antarktis",
+        "hovedstad": "",
+        "innbyggere": 1000,
+        "kontinent": "Antarktis"
+    },
+    {
+        "navn": "Guernsey",
+        "hovedstad": "St. Peter Port",
+        "innbyggere": 62999,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Gabon",
+        "hovedstad": "Libreville",
+        "innbyggere": 2225728,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Romania",
+        "hovedstad": "Bucharest",
+        "innbyggere": 19286123,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Germany",
+        "hovedstad": "Berlin",
+        "innbyggere": 83240525,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Bangladesh",
+        "hovedstad": "Dhaka",
+        "innbyggere": 164689383,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Montserrat",
+        "hovedstad": "Plymouth",
+        "innbyggere": 4922,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Jordan",
+        "hovedstad": "Amman",
+        "innbyggere": 10203140,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Mozambique",
+        "hovedstad": "Maputo",
+        "innbyggere": 31255435,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Israel",
+        "hovedstad": "Jerusalem",
+        "innbyggere": 9216900,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Eritrea",
+        "hovedstad": "Asmara",
+        "innbyggere": 5352000,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Indonesia",
+        "hovedstad": "Jakarta",
+        "innbyggere": 273523621,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Isle of Man",
+        "hovedstad": "Douglas",
+        "innbyggere": 85032,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Japan",
+        "hovedstad": "Tokyo",
+        "innbyggere": 125836021,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Spain",
+        "hovedstad": "Madrid",
+        "innbyggere": 47351567,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Afghanistan",
+        "hovedstad": "Kabul",
+        "innbyggere": 40218234,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "United Arab Emirates",
+        "hovedstad": "Abu Dhabi",
+        "innbyggere": 9890400,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Malawi",
+        "hovedstad": "Lilongwe",
+        "innbyggere": 19129955,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Turkey",
+        "hovedstad": "Ankara",
+        "innbyggere": 84339067,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Belarus",
+        "hovedstad": "Minsk",
+        "innbyggere": 9398861,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Montenegro",
+        "hovedstad": "Podgorica",
+        "innbyggere": 621718,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Bosnia and Herzegovina",
+        "hovedstad": "Sarajevo",
+        "innbyggere": 3280815,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Eswatini",
+        "hovedstad": "Mbabane",
+        "innbyggere": 1160164,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Lithuania",
+        "hovedstad": "Vilnius",
+        "innbyggere": 2794700,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Turkmenistan",
+        "hovedstad": "Ashgabat",
+        "innbyggere": 6031187,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Ethiopia",
+        "hovedstad": "Addis Ababa",
+        "innbyggere": 114963583,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Anguilla",
+        "hovedstad": "The Valley",
+        "innbyggere": 13452,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Hungary",
+        "hovedstad": "Budapest",
+        "innbyggere": 9749763,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "American Samoa",
+        "hovedstad": "Pago Pago",
+        "innbyggere": 55197,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Chad",
+        "hovedstad": "N'Djamena",
+        "innbyggere": 16425859,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Guadeloupe",
+        "hovedstad": "Basse-Terre",
+        "innbyggere": 400132,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Nigeria",
+        "hovedstad": "Abuja",
+        "innbyggere": 206139587,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "San Marino",
+        "hovedstad": "City of San Marino",
+        "innbyggere": 33938,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Ukraine",
+        "hovedstad": "Kyiv",
+        "innbyggere": 44134693,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Haiti",
+        "hovedstad": "Port-au-Prince",
+        "innbyggere": 11402533,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Botswana",
+        "hovedstad": "Gaborone",
+        "innbyggere": 2351625,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Portugal",
+        "hovedstad": "Lisbon",
+        "innbyggere": 10305564,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Guyana",
+        "hovedstad": "Georgetown",
+        "innbyggere": 786559,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Ireland",
+        "hovedstad": "Dublin",
+        "innbyggere": 4994724,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "New Caledonia",
+        "hovedstad": "Nouméa",
+        "innbyggere": 271960,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Saint Martin",
+        "hovedstad": "Marigot",
+        "innbyggere": 38659,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Mauritius",
+        "hovedstad": "Port Louis",
+        "innbyggere": 1265740,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Gibraltar",
+        "hovedstad": "Gibraltar",
+        "innbyggere": 33691,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Saint Kitts and Nevis",
+        "hovedstad": "Basseterre",
+        "innbyggere": 53192,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Iceland",
+        "hovedstad": "Reykjavik",
+        "innbyggere": 366425,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Svalbard and Jan Mayen",
+        "hovedstad": "Longyearbyen",
+        "innbyggere": 2562,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Chile",
+        "hovedstad": "Santiago",
+        "innbyggere": 19116209,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "United States Minor Outlying Islands",
+        "hovedstad": "Washington DC",
+        "innbyggere": 300,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Kazakhstan",
+        "hovedstad": "Nur-Sultan",
+        "innbyggere": 18754440,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "China",
+        "hovedstad": "Beijing",
+        "innbyggere": 1402112000,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Macau",
+        "hovedstad": "",
+        "innbyggere": 649342,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Armenia",
+        "hovedstad": "Yerevan",
+        "innbyggere": 2963234,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Bolivia",
+        "hovedstad": "Sucre",
+        "innbyggere": 11673029,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Sudan",
+        "hovedstad": "Khartoum",
+        "innbyggere": 43849269,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Vietnam",
+        "hovedstad": "Hanoi",
+        "innbyggere": 97338583,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Wallis and Futuna",
+        "hovedstad": "Mata-Utu",
+        "innbyggere": 11750,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Burundi",
+        "hovedstad": "Gitega",
+        "innbyggere": 11890781,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Canada",
+        "hovedstad": "Ottawa",
+        "innbyggere": 38005238,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Colombia",
+        "hovedstad": "Bogotá",
+        "innbyggere": 50882884,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Lesotho",
+        "hovedstad": "Maseru",
+        "innbyggere": 2142252,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Bermuda",
+        "hovedstad": "Hamilton",
+        "innbyggere": 63903,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Guatemala",
+        "hovedstad": "Guatemala City",
+        "innbyggere": 16858333,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Uzbekistan",
+        "hovedstad": "Tashkent",
+        "innbyggere": 34232050,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Cayman Islands",
+        "hovedstad": "George Town",
+        "innbyggere": 65720,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Senegal",
+        "hovedstad": "Dakar",
+        "innbyggere": 16743930,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Gambia",
+        "hovedstad": "Banjul",
+        "innbyggere": 2416664,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Liechtenstein",
+        "hovedstad": "Vaduz",
+        "innbyggere": 38137,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Pitcairn Islands",
+        "hovedstad": "Adamstown",
+        "innbyggere": 56,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Tuvalu",
+        "hovedstad": "Funafuti",
+        "innbyggere": 11792,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Equatorial Guinea",
+        "hovedstad": "Malabo",
+        "innbyggere": 1402985,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Bhutan",
+        "hovedstad": "Thimphu",
+        "innbyggere": 771612,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Aruba",
+        "hovedstad": "Oranjestad",
+        "innbyggere": 106766,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Paraguay",
+        "hovedstad": "Asunción",
+        "innbyggere": 7132530,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Grenada",
+        "hovedstad": "St. George's",
+        "innbyggere": 112519,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Papua New Guinea",
+        "hovedstad": "Port Moresby",
+        "innbyggere": 8947027,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Jamaica",
+        "hovedstad": "Kingston",
+        "innbyggere": 2961161,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Republic of the Congo",
+        "hovedstad": "Brazzaville",
+        "innbyggere": 5657000,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Poland",
+        "hovedstad": "Warsaw",
+        "innbyggere": 37950802,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Russia",
+        "hovedstad": "Moscow",
+        "innbyggere": 144104080,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Mauritania",
+        "hovedstad": "Nouakchott",
+        "innbyggere": 4649660,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Western Sahara",
+        "hovedstad": "El Aaiún",
+        "innbyggere": 510713,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Burkina Faso",
+        "hovedstad": "Ouagadougou",
+        "innbyggere": 20903278,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "DR Congo",
+        "hovedstad": "Kinshasa",
+        "innbyggere": 108407721,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Benin",
+        "hovedstad": "Porto-Novo",
+        "innbyggere": 12123198,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Uganda",
+        "hovedstad": "Kampala",
+        "innbyggere": 45741000,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Mongolia",
+        "hovedstad": "Ulan Bator",
+        "innbyggere": 3278292,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Laos",
+        "hovedstad": "Vientiane",
+        "innbyggere": 7275556,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Algeria",
+        "hovedstad": "Algiers",
+        "innbyggere": 44700000,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Brunei",
+        "hovedstad": "Bandar Seri Begawan",
+        "innbyggere": 437483,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Kenya",
+        "hovedstad": "Nairobi",
+        "innbyggere": 53771300,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Sri Lanka",
+        "hovedstad": "Sri Jayawardenepura Kotte",
+        "innbyggere": 21919000,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Dominican Republic",
+        "hovedstad": "Santo Domingo",
+        "innbyggere": 10847904,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Austria",
+        "hovedstad": "Vienna",
+        "innbyggere": 8917205,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Luxembourg",
+        "hovedstad": "Luxembourg",
+        "innbyggere": 632275,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Georgia",
+        "hovedstad": "Tbilisi",
+        "innbyggere": 3714000,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Slovakia",
+        "hovedstad": "Bratislava",
+        "innbyggere": 5458827,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Norway",
+        "hovedstad": "Oslo",
+        "innbyggere": 5379475,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Thailand",
+        "hovedstad": "Bangkok",
+        "innbyggere": 69799978,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "British Indian Ocean Territory",
+        "hovedstad": "Diego Garcia",
+        "innbyggere": 3000,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "India",
+        "hovedstad": "New Delhi",
+        "innbyggere": 1380004385,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Morocco",
+        "hovedstad": "Rabat",
+        "innbyggere": 36910558,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Saint Pierre and Miquelon",
+        "hovedstad": "Saint-Pierre",
+        "innbyggere": 6069,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Greenland",
+        "hovedstad": "Nuuk",
+        "innbyggere": 56367,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Nicaragua",
+        "hovedstad": "Managua",
+        "innbyggere": 6624554,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Qatar",
+        "hovedstad": "Doha",
+        "innbyggere": 2881060,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Taiwan",
+        "hovedstad": "Taipei",
+        "innbyggere": 23503349,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Brazil",
+        "hovedstad": "Brasília",
+        "innbyggere": 212559409,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "New Zealand",
+        "hovedstad": "Wellington",
+        "innbyggere": 5084300,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Singapore",
+        "hovedstad": "Singapore",
+        "innbyggere": 5685807,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Syria",
+        "hovedstad": "Damascus",
+        "innbyggere": 17500657,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Belize",
+        "hovedstad": "Belmopan",
+        "innbyggere": 397621,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Falkland Islands",
+        "hovedstad": "Stanley",
+        "innbyggere": 2563,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Venezuela",
+        "hovedstad": "Caracas",
+        "innbyggere": 28435943,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Bahrain",
+        "hovedstad": "Manama",
+        "innbyggere": 1701583,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Cocos (Keeling) Islands",
+        "hovedstad": "West Island",
+        "innbyggere": 544,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Northern Mariana Islands",
+        "hovedstad": "Saipan",
+        "innbyggere": 57557,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Cameroon",
+        "hovedstad": "Yaoundé",
+        "innbyggere": 26545864,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Cyprus",
+        "hovedstad": "Nicosia",
+        "innbyggere": 1207361,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "United States",
+        "hovedstad": "Washington, D.C.",
+        "innbyggere": 329484123,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Angola",
+        "hovedstad": "Luanda",
+        "innbyggere": 32866268,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Tunisia",
+        "hovedstad": "Tunis",
+        "innbyggere": 11818618,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Monaco",
+        "hovedstad": "Monaco",
+        "innbyggere": 39244,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Rwanda",
+        "hovedstad": "Kigali",
+        "innbyggere": 12952209,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Trinidad and Tobago",
+        "hovedstad": "Port of Spain",
+        "innbyggere": 1399491,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Malta",
+        "hovedstad": "Valletta",
+        "innbyggere": 525285,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Mexico",
+        "hovedstad": "Mexico City",
+        "innbyggere": 128932753,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Mayotte",
+        "hovedstad": "Mamoudzou",
+        "innbyggere": 226915,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Antigua and Barbuda",
+        "hovedstad": "Saint John's",
+        "innbyggere": 97928,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Tokelau",
+        "hovedstad": "Fakaofo",
+        "innbyggere": 1411,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "South Korea",
+        "hovedstad": "Seoul",
+        "innbyggere": 51780579,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Niger",
+        "hovedstad": "Niamey",
+        "innbyggere": 24206636,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Albania",
+        "hovedstad": "Tirana",
+        "innbyggere": 2837743,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Somalia",
+        "hovedstad": "Mogadishu",
+        "innbyggere": 15893219,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Liberia",
+        "hovedstad": "Monrovia",
+        "innbyggere": 5057677,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Myanmar",
+        "hovedstad": "Naypyidaw",
+        "innbyggere": 54409794,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Tanzania",
+        "hovedstad": "Dodoma",
+        "innbyggere": 59734213,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Iraq",
+        "hovedstad": "Baghdad",
+        "innbyggere": 40222503,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "South Georgia",
+        "hovedstad": "King Edward Point",
+        "innbyggere": 30,
+        "kontinent": "Antarktis"
+    },
+    {
+        "navn": "Saint Vincent and the Grenadines",
+        "hovedstad": "Kingstown",
+        "innbyggere": 110947,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Libya",
+        "hovedstad": "Tripoli",
+        "innbyggere": 6871287,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Sierra Leone",
+        "hovedstad": "Freetown",
+        "innbyggere": 7976985,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Sint Maarten",
+        "hovedstad": "Philipsburg",
+        "innbyggere": 40812,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Serbia",
+        "hovedstad": "Belgrade",
+        "innbyggere": 6908224,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Heard Island and McDonald Islands",
+        "hovedstad": "",
+        "innbyggere": 0,
+        "kontinent": "Antarktis"
+    },
+    {
+        "navn": "Ghana",
+        "hovedstad": "Accra",
+        "innbyggere": 31072945,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "South Sudan",
+        "hovedstad": "Juba",
+        "innbyggere": 11193729,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Sweden",
+        "hovedstad": "Stockholm",
+        "innbyggere": 10353442,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Greece",
+        "hovedstad": "Athens",
+        "innbyggere": 10715549,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Faroe Islands",
+        "hovedstad": "Tórshavn",
+        "innbyggere": 48865,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Philippines",
+        "hovedstad": "Manila",
+        "innbyggere": 109581085,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Guinea-Bissau",
+        "hovedstad": "Bissau",
+        "innbyggere": 1967998,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Saudi Arabia",
+        "hovedstad": "Riyadh",
+        "innbyggere": 34813867,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Palau",
+        "hovedstad": "Ngerulmud",
+        "innbyggere": 18092,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Bulgaria",
+        "hovedstad": "Sofia",
+        "innbyggere": 6927288,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Nauru",
+        "hovedstad": "Yaren",
+        "innbyggere": 10834,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Cambodia",
+        "hovedstad": "Phnom Penh",
+        "innbyggere": 16718971,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Jersey",
+        "hovedstad": "Saint Helier",
+        "innbyggere": 100800,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Palestine",
+        "hovedstad": "Ramallah",
+        "innbyggere": 4803269,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Italy",
+        "hovedstad": "Rome",
+        "innbyggere": 59554023,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Mali",
+        "hovedstad": "Bamako",
+        "innbyggere": 20250834,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Iran",
+        "hovedstad": "Tehran",
+        "innbyggere": 83992953,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Niue",
+        "hovedstad": "Alofi",
+        "innbyggere": 1470,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Tajikistan",
+        "hovedstad": "Dushanbe",
+        "innbyggere": 9537642,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Kosovo",
+        "hovedstad": "Pristina",
+        "innbyggere": 1775378,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Saint Helena, Ascension and Tristan da Cunha",
+        "hovedstad": "Jamestown",
+        "innbyggere": 53192,
+        "kontinent": "Afrika"
+    },
+    {
+        "navn": "Norfolk Island",
+        "hovedstad": "Kingston",
+        "innbyggere": 2302,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Oman",
+        "hovedstad": "Muscat",
+        "innbyggere": 5106622,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "El Salvador",
+        "hovedstad": "San Salvador",
+        "innbyggere": 6486201,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Lebanon",
+        "hovedstad": "Beirut",
+        "innbyggere": 6825442,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Vatican City",
+        "hovedstad": "Vatican City",
+        "innbyggere": 451,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Ecuador",
+        "hovedstad": "Quito",
+        "innbyggere": 17643060,
+        "kontinent": "Sør-Amerika"
+    },
+    {
+        "navn": "Guam",
+        "hovedstad": "Hagåtña",
+        "innbyggere": 168783,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Croatia",
+        "hovedstad": "Zagreb",
+        "innbyggere": 4047200,
+        "kontinent": "Europa"
+    },
+    {
+        "navn": "Solomon Islands",
+        "hovedstad": "Honiara",
+        "innbyggere": 686878,
+        "kontinent": "Oceania"
+    },
+    {
+        "navn": "Honduras",
+        "hovedstad": "Tegucigalpa",
+        "innbyggere": 9904608,
+        "kontinent": "Nord-Amerika"
+    },
+    {
+        "navn": "Christmas Island",
+        "hovedstad": "Flying Fish Cove",
+        "innbyggere": 2072,
+        "kontinent": "Asia"
+    },
+    {
+        "navn": "Puerto Rico",
+        "hovedstad": "San Juan",
+        "innbyggere": 3194034,
+        "kontinent": "Nord-Amerika"
+    }
+]
