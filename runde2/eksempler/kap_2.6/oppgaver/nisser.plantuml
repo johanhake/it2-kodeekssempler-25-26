@@ -1,0 +1,45 @@
+@startuml nisser
+
+class Juleverksted{
+    lokasjon: str
+    arbeidsnisser: list[Arbeidsnisse]
+    gaver: list
+    far: Nissefar 
+    mor: Nissemor
+    legg_til_arbeidsnisse(nisse: Arbeidsnisse): None 
+    vis_nisser(): None 
+    produser(): None 
+    overfør_gaver_til_nissefar(): None 
+}
+
+abstract class Nisse{
+    navn: str 
+    alder: int
+    info(): str
+    {abstract} utfør(): str
+}
+
+class Nissemor{
+    info(): str
+    utfør(): str
+}
+
+class Nissefar{
+    gaver: list[str]
+    info(): str
+    utfør(int: antall): liste [str]
+}
+
+class Arbeidsnisse{
+    info(): str
+    utfør(): str
+}
+
+Arbeidsnisse --o Juleverksted
+Nissefar --* Juleverksted
+Nissemor --* Juleverksted
+Nisse <|- Nissefar
+Nisse <|- Nissemor
+Nisse <|- Arbeidsnisse
+
+@enduml
