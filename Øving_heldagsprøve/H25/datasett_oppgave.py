@@ -29,17 +29,20 @@ with open("friluftsaktiviteter.csv") as fil:
         sum_aktiviteter.append(sum(antall))
         
     # Skriver ut aktivitetene i en tabell
+    print("Sum  : Aktivitet")
+    print("-"*50)
     for i in range(len(aktiviteter)):
         aktivitet = aktiviteter[i]
         antall = sum_aktiviteter[i]
-        print(f"{aktivitet:60} : {antall}")
+        print(f"{antall:4} : {aktivitet}")
     
     # Brukeren velger fylke:
     print("\n")
     for i in range(len(fylker)):
         print(f"{i+1:2} : {fylker[i]}")
     
-    fylke_indeks = int(input("Velg fylke: "))-1
+    print("Skriv inn tallet for valgt fylke")
+    fylke_indeks = int(input(f"Velg fylke [1-{len(fylker)}]: "))-1
     
     print(f"\n\nViser aktivteter for: {fylker[fylke_indeks]}")
     
