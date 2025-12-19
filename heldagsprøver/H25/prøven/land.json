@@ -1,0 +1,1172 @@
+[
+  {
+    "land": "Afghanistan",
+    "innbyggere": 43372950,
+    "areal": 652200
+  },
+  {
+    "land": "Albania",
+    "innbyggere": 2826020,
+    "areal": 27400
+  },
+  {
+    "land": "Algeria",
+    "innbyggere": 46278751,
+    "areal": 2400000
+  },
+  {
+    "land": "American Samoa",
+    "innbyggere": 43544,
+    "areal": 200
+  },
+  {
+    "land": "Andorra",
+    "innbyggere": 80341,
+    "areal": 470
+  },
+  {
+    "land": "Angola",
+    "innbyggere": 37804634,
+    "areal": 1200000
+  },
+  {
+    "land": "Anguilla",
+    "innbyggere": 15936,
+    "areal": 91
+  },
+  {
+    "land": "Antigua and Barbuda",
+    "innbyggere": 94816,
+    "areal": 440
+  },
+  {
+    "land": "Argentina",
+    "innbyggere": 46057866,
+    "areal": 2700000
+  },
+  {
+    "land": "Armenia",
+    "innbyggere": 2777979,
+    "areal": 28500
+  },
+  {
+    "land": "Aruba",
+    "innbyggere": 106177,
+    "areal": 180
+  },
+  {
+    "land": "Australia",
+    "innbyggere": 26699482,
+    "areal": 7700000
+  },
+  {
+    "land": "Austria",
+    "innbyggere": 8977139,
+    "areal": 82500
+  },
+  {
+    "land": "Azerbaijan",
+    "innbyggere": 10462904,
+    "areal": 82600
+  },
+  {
+    "land": "Bahamas",
+    "innbyggere": 415223,
+    "areal": 10000
+  },
+  {
+    "land": "Bahrain",
+    "innbyggere": 1498712,
+    "areal": 785
+  },
+  {
+    "land": "Bangladesh",
+    "innbyggere": 174701211,
+    "areal": 130199
+  },
+  {
+    "land": "Barbados",
+    "innbyggere": 282309,
+    "areal": 430
+  },
+  {
+    "land": "Belarus",
+    "innbyggere": 9455037,
+    "areal": 203000
+  },
+  {
+    "land": "Belgium",
+    "innbyggere": 11715774,
+    "areal": 30300
+  },
+  {
+    "land": "Belize",
+    "innbyggere": 416656,
+    "areal": 22800
+  },
+  {
+    "land": "Benin",
+    "innbyggere": 14080072,
+    "areal": 112800
+  },
+  {
+    "land": "Bermuda",
+    "innbyggere": 63935,
+    "areal": 54
+  },
+  {
+    "land": "Bhutan",
+    "innbyggere": 792382,
+    "areal": 38100
+  },
+  {
+    "land": "Bolivia",
+    "innbyggere": 12567336,
+    "areal": 1100000
+  },
+  {
+    "land": "Bosnia and Herzegovina",
+    "innbyggere": 3194378,
+    "areal": 51200
+  },
+  {
+    "land": "Botswana",
+    "innbyggere": 2719694,
+    "areal": 566700
+  },
+  {
+    "land": "Brazil",
+    "innbyggere": 217637297,
+    "areal": 8400000
+  },
+  {
+    "land": "British Virgin Islands",
+    "innbyggere": 31763,
+    "areal": 150
+  },
+  {
+    "land": "Brunei",
+    "innbyggere": 455858,
+    "areal": 5300
+  },
+  {
+    "land": "Bulgaria",
+    "innbyggere": 6618615,
+    "areal": 108600
+  },
+  {
+    "land": "Burkina Faso",
+    "innbyggere": 23840247,
+    "areal": 273600
+  },
+  {
+    "land": "Burundi",
+    "innbyggere": 13591657,
+    "areal": 25700
+  },
+  {
+    "land": "Cambodia",
+    "innbyggere": 17121847,
+    "areal": 176500
+  },
+  {
+    "land": "Cameroon",
+    "innbyggere": 29394433,
+    "areal": 472700
+  },
+  {
+    "land": "Canada",
+    "innbyggere": 39107046,
+    "areal": 9000000
+  },
+  {
+    "land": "Cape Verde",
+    "innbyggere": 604461,
+    "areal": 4000
+  },
+  {
+    "land": "Cayman Islands",
+    "innbyggere": 69885,
+    "areal": 240
+  },
+  {
+    "land": "Central African Republic",
+    "innbyggere": 5915627,
+    "areal": 623000
+  },
+  {
+    "land": "Chad",
+    "innbyggere": 18847148,
+    "areal": 1300000
+  },
+  {
+    "land": "Chile",
+    "innbyggere": 19658839,
+    "areal": 743500
+  },
+  {
+    "land": "China",
+    "innbyggere": 1425178782,
+    "areal": 9400000
+  },
+  {
+    "land": "Colombia",
+    "innbyggere": 52340774,
+    "areal": 1100000
+  },
+  {
+    "land": "Comoros",
+    "innbyggere": 867605,
+    "areal": 1900
+  },
+  {
+    "land": "Cook Islands",
+    "innbyggere": 17072,
+    "areal": 240
+  },
+  {
+    "land": "Costa Rica",
+    "innbyggere": 5246714,
+    "areal": 51100
+  },
+  {
+    "land": "Croatia",
+    "innbyggere": 3986627,
+    "areal": 56000
+  },
+  {
+    "land": "Cuba",
+    "innbyggere": 11174587,
+    "areal": 103800
+  },
+  {
+    "land": "Curacao",
+    "innbyggere": 192965,
+    "areal": 444
+  },
+  {
+    "land": "Cyprus",
+    "innbyggere": 1268467,
+    "areal": 9200
+  },
+  {
+    "land": "Czech Republic",
+    "innbyggere": 10503734,
+    "areal": 77200
+  },
+  {
+    "land": "DR Congo",
+    "innbyggere": 105625114,
+    "areal": 2300000
+  },
+  {
+    "land": "Denmark",
+    "innbyggere": 5939695,
+    "areal": 40000
+  },
+  {
+    "land": "Djibouti",
+    "innbyggere": 1152329,
+    "areal": 23200
+  },
+  {
+    "land": "Dominica",
+    "innbyggere": 73368,
+    "areal": 750
+  },
+  {
+    "land": "Dominican Republic",
+    "innbyggere": 11434005,
+    "areal": 48300
+  },
+  {
+    "land": "Ecuador",
+    "innbyggere": 18377367,
+    "areal": 248400
+  },
+  {
+    "land": "Egypt",
+    "innbyggere": 114484252,
+    "areal": 995500
+  },
+  {
+    "land": "El Salvador",
+    "innbyggere": 6396289,
+    "areal": 20700
+  },
+  {
+    "land": "Equatorial Guinea",
+    "innbyggere": 1754993,
+    "areal": 28100
+  },
+  {
+    "land": "Eritrea",
+    "innbyggere": 3817651,
+    "areal": 121000
+  },
+  {
+    "land": "Estonia",
+    "innbyggere": 1319041,
+    "areal": 42800
+  },
+  {
+    "land": "Eswatini",
+    "innbyggere": 1222075,
+    "areal": 17200
+  },
+  {
+    "land": "Ethiopia",
+    "innbyggere": 129719719,
+    "areal": 1100000
+  },
+  {
+    "land": "Falkland Islands",
+    "innbyggere": 3803,
+    "areal": 12200
+  },
+  {
+    "land": "Faroe Islands",
+    "innbyggere": 53444,
+    "areal": 1400
+  },
+  {
+    "land": "Fiji",
+    "innbyggere": 943072,
+    "areal": 18300
+  },
+  {
+    "land": "Finland",
+    "innbyggere": 5549886,
+    "areal": 303900
+  },
+  {
+    "land": "France",
+    "innbyggere": 64881830,
+    "areal": 547600
+  },
+  {
+    "land": "French Guiana",
+    "innbyggere": 319796,
+    "areal": 83500
+  },
+  {
+    "land": "French Polynesia",
+    "innbyggere": 311383,
+    "areal": 3500
+  },
+  {
+    "land": "Gabon",
+    "innbyggere": 2484557,
+    "areal": 257700
+  },
+  {
+    "land": "Gambia",
+    "innbyggere": 2841803,
+    "areal": 10100
+  },
+  {
+    "land": "Georgia",
+    "innbyggere": 3717425,
+    "areal": 69500
+  },
+  {
+    "land": "Germany",
+    "innbyggere": 83252474,
+    "areal": 349400
+  },
+  {
+    "land": "Ghana",
+    "innbyggere": 34777522,
+    "areal": 227500
+  },
+  {
+    "land": "Gibraltar",
+    "innbyggere": 32718,
+    "areal": 6
+  },
+  {
+    "land": "Greece",
+    "innbyggere": 10302720,
+    "areal": 128900
+  },
+  {
+    "land": "Greenland",
+    "innbyggere": 56789,
+    "areal": 410400
+  },
+  {
+    "land": "Grenada",
+    "innbyggere": 126887,
+    "areal": 340
+  },
+  {
+    "land": "Guadeloupe",
+    "innbyggere": 396346,
+    "areal": 1600
+  },
+  {
+    "land": "Guam",
+    "innbyggere": 174114,
+    "areal": 540
+  },
+  {
+    "land": "Guatemala",
+    "innbyggere": 18358430,
+    "areal": 107200
+  },
+  {
+    "land": "Guernsey",
+    "innbyggere": 63788,
+    "areal": 63
+  },
+  {
+    "land": "Guinea",
+    "innbyggere": 14528770,
+    "areal": 245700
+  },
+  {
+    "land": "Guinea-Bissau",
+    "innbyggere": 2197149,
+    "areal": 28100
+  },
+  {
+    "land": "Guyana",
+    "innbyggere": 819594,
+    "areal": 196800
+  },
+  {
+    "land": "Haiti",
+    "innbyggere": 11867030,
+    "areal": 27600
+  },
+  {
+    "land": "Honduras",
+    "innbyggere": 10759406,
+    "areal": 111900
+  },
+  {
+    "land": "Hong Kong",
+    "innbyggere": 7496681,
+    "areal": 1100
+  },
+  {
+    "land": "Hungary",
+    "innbyggere": 9994993,
+    "areal": 91300
+  },
+  {
+    "land": "Iceland",
+    "innbyggere": 377689,
+    "areal": 100800
+  },
+  {
+    "land": "India",
+    "innbyggere": 1441719852,
+    "areal": 3000000
+  },
+  {
+    "land": "Indonesia",
+    "innbyggere": 279798049,
+    "areal": 1900000
+  },
+  {
+    "land": "Iran",
+    "innbyggere": 89809781,
+    "areal": 1600000
+  },
+  {
+    "land": "Iraq",
+    "innbyggere": 46523657,
+    "areal": 434100
+  },
+  {
+    "land": "Ireland",
+    "innbyggere": 5089478,
+    "areal": 68900
+  },
+  {
+    "land": "Isle of Man",
+    "innbyggere": 84904,
+    "areal": 570
+  },
+  {
+    "land": "Israel",
+    "innbyggere": 9311652,
+    "areal": 21600
+  },
+  {
+    "land": "Italy",
+    "innbyggere": 58697744,
+    "areal": 295700
+  },
+  {
+    "land": "Ivory Coast",
+    "innbyggere": 29603302,
+    "areal": 318000
+  },
+  {
+    "land": "Jamaica",
+    "innbyggere": 2824738,
+    "areal": 10800
+  },
+  {
+    "land": "Japan",
+    "innbyggere": 122631432,
+    "areal": 364500
+  },
+  {
+    "land": "Jersey",
+    "innbyggere": 112843,
+    "areal": 120
+  },
+  {
+    "land": "Jordan",
+    "innbyggere": 11384922,
+    "areal": 88800
+  },
+  {
+    "land": "Kazakhstan",
+    "innbyggere": 19828165,
+    "areal": 2700000
+  },
+  {
+    "land": "Kenya",
+    "innbyggere": 56203030,
+    "areal": 569100
+  },
+  {
+    "land": "Kiribati",
+    "innbyggere": 135763,
+    "areal": 810
+  },
+  {
+    "land": "Kuwait",
+    "innbyggere": 4349380,
+    "areal": 17800
+  },
+  {
+    "land": "Kyrgyzstan",
+    "innbyggere": 6839606,
+    "areal": 191800
+  },
+  {
+    "land": "Laos",
+    "innbyggere": 7736681,
+    "areal": 230800
+  },
+  {
+    "land": "Latvia",
+    "innbyggere": 1810240,
+    "areal": 62200
+  },
+  {
+    "land": "Lebanon",
+    "innbyggere": 5219044,
+    "areal": 10200
+  },
+  {
+    "land": "Lesotho",
+    "innbyggere": 2356083,
+    "areal": 30400
+  },
+  {
+    "land": "Liberia",
+    "innbyggere": 5536949,
+    "areal": 96300
+  },
+  {
+    "land": "Libya",
+    "innbyggere": 6964197,
+    "areal": 1800000
+  },
+  {
+    "land": "Liechtenstein",
+    "innbyggere": 39822,
+    "areal": 160
+  },
+  {
+    "land": "Lithuania",
+    "innbyggere": 2692798,
+    "areal": 62600
+  },
+  {
+    "land": "Luxembourg",
+    "innbyggere": 661594,
+    "areal": 2600
+  },
+  {
+    "land": "Macau",
+    "innbyggere": 713082,
+    "areal": 32
+  },
+  {
+    "land": "Madagascar",
+    "innbyggere": 31056610,
+    "areal": 581800
+  },
+  {
+    "land": "Malawi",
+    "innbyggere": 21475962,
+    "areal": 94300
+  },
+  {
+    "land": "Malaysia",
+    "innbyggere": 34671895,
+    "areal": 328600
+  },
+  {
+    "land": "Maldives",
+    "innbyggere": 517887,
+    "areal": 300
+  },
+  {
+    "land": "Mali",
+    "innbyggere": 24015789,
+    "areal": 1200000
+  },
+  {
+    "land": "Malta",
+    "innbyggere": 536740,
+    "areal": 320
+  },
+  {
+    "land": "Marshall Islands",
+    "innbyggere": 42415,
+    "areal": 180
+  },
+  {
+    "land": "Martinique",
+    "innbyggere": 366416,
+    "areal": 1100
+  },
+  {
+    "land": "Mauritania",
+    "innbyggere": 4993922,
+    "areal": 1000000
+  },
+  {
+    "land": "Mauritius",
+    "innbyggere": 1301978,
+    "areal": 2000
+  },
+  {
+    "land": "Mayotte",
+    "innbyggere": 345996,
+    "areal": 374
+  },
+  {
+    "land": "Mexico",
+    "innbyggere": 129388467,
+    "areal": 1900000
+  },
+  {
+    "land": "Micronesia",
+    "innbyggere": 116300,
+    "areal": 700
+  },
+  {
+    "land": "Moldova",
+    "innbyggere": 3329865,
+    "areal": 32900
+  },
+  {
+    "land": "Monaco",
+    "innbyggere": 36157,
+    "areal": 2
+  },
+  {
+    "land": "Mongolia",
+    "innbyggere": 3493629,
+    "areal": 1600000
+  },
+  {
+    "land": "Montenegro",
+    "innbyggere": 626102,
+    "areal": 13400
+  },
+  {
+    "land": "Montserrat",
+    "innbyggere": 4372,
+    "areal": 102
+  },
+  {
+    "land": "Morocco",
+    "innbyggere": 38211459,
+    "areal": 446300
+  },
+  {
+    "land": "Mozambique",
+    "innbyggere": 34858402,
+    "areal": 786400
+  },
+  {
+    "land": "Myanmar",
+    "innbyggere": 54964694,
+    "areal": 652700
+  },
+  {
+    "land": "Namibia",
+    "innbyggere": 2645805,
+    "areal": 823300
+  },
+  {
+    "land": "Nauru",
+    "innbyggere": 12884,
+    "areal": 20
+  },
+  {
+    "land": "Nepal",
+    "innbyggere": 31240315,
+    "areal": 143300
+  },
+  {
+    "land": "Netherlands",
+    "innbyggere": 17671125,
+    "areal": 33700
+  },
+  {
+    "land": "New Caledonia",
+    "innbyggere": 295966,
+    "areal": 18300
+  },
+  {
+    "land": "New Zealand",
+    "innbyggere": 5269939,
+    "areal": 263300
+  },
+  {
+    "land": "Nicaragua",
+    "innbyggere": 7142529,
+    "areal": 120300
+  },
+  {
+    "land": "Niger",
+    "innbyggere": 28238972,
+    "areal": 1300000
+  },
+  {
+    "land": "Nigeria",
+    "innbyggere": 229152217,
+    "areal": 910800
+  },
+  {
+    "land": "Niue",
+    "innbyggere": 1935,
+    "areal": 261
+  },
+  {
+    "land": "North Korea",
+    "innbyggere": 26244582,
+    "areal": 120400
+  },
+  {
+    "land": "North Macedonia",
+    "innbyggere": 2082706,
+    "areal": 25200
+  },
+  {
+    "land": "Northern Mariana Islands",
+    "innbyggere": 50025,
+    "areal": 460
+  },
+  {
+    "land": "Norway",
+    "innbyggere": 5514477,
+    "areal": 364300
+  },
+  {
+    "land": "Oman",
+    "innbyggere": 4713553,
+    "areal": 309500
+  },
+  {
+    "land": "Pakistan",
+    "innbyggere": 245209815,
+    "areal": 770900
+  },
+  {
+    "land": "Palau",
+    "innbyggere": 18051,
+    "areal": 460
+  },
+  {
+    "land": "Palestine",
+    "innbyggere": 5494963,
+    "areal": 6000
+  },
+  {
+    "land": "Panama",
+    "innbyggere": 4527961,
+    "areal": 74200
+  },
+  {
+    "land": "Papua New Guinea",
+    "innbyggere": 10515788,
+    "areal": 452900
+  },
+  {
+    "land": "Paraguay",
+    "innbyggere": 6947270,
+    "areal": 397300
+  },
+  {
+    "land": "Peru",
+    "innbyggere": 34683444,
+    "areal": 1300000
+  },
+  {
+    "land": "Philippines",
+    "innbyggere": 119106224,
+    "areal": 298200
+  },
+  {
+    "land": "Poland",
+    "innbyggere": 40221726,
+    "areal": 306100
+  },
+  {
+    "land": "Portugal",
+    "innbyggere": 10223349,
+    "areal": 91600
+  },
+  {
+    "land": "Puerto Rico",
+    "innbyggere": 3268802,
+    "areal": 8900
+  },
+  {
+    "land": "Qatar",
+    "innbyggere": 2737061,
+    "areal": 11500
+  },
+  {
+    "land": "Republic of the Congo",
+    "innbyggere": 6244547,
+    "areal": 341500
+  },
+  {
+    "land": "Reunion",
+    "innbyggere": 989350,
+    "areal": 2500
+  },
+  {
+    "land": "Romania",
+    "innbyggere": 19618996,
+    "areal": 230100
+  },
+  {
+    "land": "Russia",
+    "innbyggere": 143957079,
+    "areal": 16399999
+  },
+  {
+    "land": "Rwanda",
+    "innbyggere": 14414910,
+    "areal": 24700
+  },
+  {
+    "land": "Saint Barthelemy",
+    "innbyggere": 11019,
+    "areal": 25
+  },
+  {
+    "land": "Saint Kitts and Nevis",
+    "innbyggere": 47847,
+    "areal": 260
+  },
+  {
+    "land": "Saint Lucia",
+    "innbyggere": 180805,
+    "areal": 610
+  },
+  {
+    "land": "Saint Martin",
+    "innbyggere": 32337,
+    "areal": 50
+  },
+  {
+    "land": "Saint Pierre and Miquelon",
+    "innbyggere": 5815,
+    "areal": 242
+  },
+  {
+    "land": "Saint Vincent and the Grenadines",
+    "innbyggere": 103683,
+    "areal": 390
+  },
+  {
+    "land": "Samoa",
+    "innbyggere": 228966,
+    "areal": 2800
+  },
+  {
+    "land": "San Marino",
+    "innbyggere": 33614,
+    "areal": 60
+  },
+  {
+    "land": "Sao Tome and Principe",
+    "innbyggere": 236381,
+    "areal": 960
+  },
+  {
+    "land": "Saudi Arabia",
+    "innbyggere": 37473929,
+    "areal": 2100000
+  },
+  {
+    "land": "Senegal",
+    "innbyggere": 18221567,
+    "areal": 192500
+  },
+  {
+    "land": "Serbia",
+    "innbyggere": 7097028,
+    "areal": 87500
+  },
+  {
+    "land": "Seychelles",
+    "innbyggere": 108263,
+    "areal": 460
+  },
+  {
+    "land": "Sierra Leone",
+    "innbyggere": 8977972,
+    "areal": 72200
+  },
+  {
+    "land": "Singapore",
+    "innbyggere": 6052709,
+    "areal": 718
+  },
+  {
+    "land": "Sint Maarten",
+    "innbyggere": 44309,
+    "areal": 34
+  },
+  {
+    "land": "Slovakia",
+    "innbyggere": 5702832,
+    "areal": 49000
+  },
+  {
+    "land": "Slovenia",
+    "innbyggere": 2118965,
+    "areal": 20100
+  },
+  {
+    "land": "Solomon Islands",
+    "innbyggere": 756673,
+    "areal": 28000
+  },
+  {
+    "land": "Somalia",
+    "innbyggere": 18706922,
+    "areal": 627300
+  },
+  {
+    "land": "South Africa",
+    "innbyggere": 61020221,
+    "areal": 1200000
+  },
+  {
+    "land": "South Korea",
+    "innbyggere": 51741963,
+    "areal": 97600
+  },
+  {
+    "land": "South Sudan",
+    "innbyggere": 11277092,
+    "areal": 631900
+  },
+  {
+    "land": "Spain",
+    "innbyggere": 47473373,
+    "areal": 499600
+  },
+  {
+    "land": "Sri Lanka",
+    "innbyggere": 21949268,
+    "areal": 61900
+  },
+  {
+    "land": "Sudan",
+    "innbyggere": 49358228,
+    "areal": 1900000
+  },
+  {
+    "land": "Suriname",
+    "innbyggere": 628785,
+    "areal": 156000
+  },
+  {
+    "land": "Sweden",
+    "innbyggere": 10673669,
+    "areal": 407300
+  },
+  {
+    "land": "Switzerland",
+    "innbyggere": 8851431,
+    "areal": 39500
+  },
+  {
+    "land": "Syria",
+    "innbyggere": 24348053,
+    "areal": 183600
+  },
+  {
+    "land": "Taiwan",
+    "innbyggere": 23950214,
+    "areal": 36200
+  },
+  {
+    "land": "Tajikistan",
+    "innbyggere": 10331513,
+    "areal": 138800
+  },
+  {
+    "land": "Tanzania",
+    "innbyggere": 69419073,
+    "areal": 885800
+  },
+  {
+    "land": "Thailand",
+    "innbyggere": 71885799,
+    "areal": 510900
+  },
+  {
+    "land": "Timor-Leste",
+    "innbyggere": 1379883,
+    "areal": 14900
+  },
+  {
+    "land": "Togo",
+    "innbyggere": 9260864,
+    "areal": 54400
+  },
+  {
+    "land": "Tokelau",
+    "innbyggere": 1915,
+    "areal": 10
+  },
+  {
+    "land": "Tonga",
+    "innbyggere": 108683,
+    "areal": 720
+  },
+  {
+    "land": "Trinidad and Tobago",
+    "innbyggere": 1538200,
+    "areal": 5100
+  },
+  {
+    "land": "Tunisia",
+    "innbyggere": 12564689,
+    "areal": 155400
+  },
+  {
+    "land": "Turkey",
+    "innbyggere": 86260417,
+    "areal": 783600
+  },
+  {
+    "land": "Turkmenistan",
+    "innbyggere": 6598071,
+    "areal": 469900
+  },
+  {
+    "land": "Turks and Caicos Islands",
+    "innbyggere": 46431,
+    "areal": 948
+  },
+  {
+    "land": "Tuvalu",
+    "innbyggere": 11478,
+    "areal": 30
+  },
+  {
+    "land": "Uganda",
+    "innbyggere": 49924252,
+    "areal": 200500
+  },
+  {
+    "land": "Ukraine",
+    "innbyggere": 37937821,
+    "areal": 579400
+  },
+  {
+    "land": "United Arab Emirates",
+    "innbyggere": 9591853,
+    "areal": 71000
+  },
+  {
+    "land": "United Kingdom",
+    "innbyggere": 67961439,
+    "areal": 241900
+  },
+  {
+    "land": "United States",
+    "innbyggere": 341814420,
+    "areal": 9100000
+  },
+  {
+    "land": "United States Virgin Islands",
+    "innbyggere": 98055,
+    "areal": 347
+  },
+  {
+    "land": "Uruguay",
+    "innbyggere": 3423316,
+    "areal": 175000
+  },
+  {
+    "land": "Uzbekistan",
+    "innbyggere": 35673804,
+    "areal": 440600
+  },
+  {
+    "land": "Vanuatu",
+    "innbyggere": 342325,
+    "areal": 12200
+  },
+  {
+    "land": "Vatican City",
+    "innbyggere": 526,
+    "areal": 0
+  },
+  {
+    "land": "Venezuela",
+    "innbyggere": 29395334,
+    "areal": 882000
+  },
+  {
+    "land": "Vietnam",
+    "innbyggere": 99497680,
+    "areal": 313400
+  },
+  {
+    "land": "Wallis and Futuna",
+    "innbyggere": 11439,
+    "areal": 274
+  },
+  {
+    "land": "Western Sahara",
+    "innbyggere": 598385,
+    "areal": 266000
+  },
+  {
+    "land": "Yemen",
+    "innbyggere": 35219853,
+    "areal": 528000
+  },
+  {
+    "land": "Zambia",
+    "innbyggere": 21134695,
+    "areal": 743400
+  },
+  {
+    "land": "Zimbabwe",
+    "innbyggere": 17020321,
+    "areal": 386900
+  }
+]
