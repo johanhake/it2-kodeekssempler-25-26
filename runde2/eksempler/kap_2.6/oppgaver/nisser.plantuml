@@ -38,8 +38,8 @@ class Arbeidsnisse{
 Arbeidsnisse --o Juleverksted
 Nissefar --* Juleverksted
 Nissemor --* Juleverksted
-Nisse <|- Nissefar
-Nisse <|- Nissemor
-Nisse <|- Arbeidsnisse
+Nisse <|.. Nissefar
+Nisse <|.. Nissemor
+Nisse <|.. Arbeidsnisse
 
 @enduml
