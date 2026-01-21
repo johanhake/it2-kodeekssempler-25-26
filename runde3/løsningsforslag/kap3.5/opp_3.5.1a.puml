@@ -1,0 +1,15 @@
+@startuml transport
+
+class Sjåfør{
+    navn:str
+}
+
+class Varebil{
+    regnr:str
+    sjåfør:Sjåfør
+    bruk_sjåfør(sjåfør:Sjåfør):None
+}
+
+Varebil o-- Sjåfør
+
+@enduml
