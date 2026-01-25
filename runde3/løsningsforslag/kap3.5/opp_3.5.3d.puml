@@ -1,0 +1,39 @@
+@startuml Stafettsimulator
+
+class Klubb {
+    navn: str
+    medlemmer: List<Medlem>
+     __init__(navn: str)
+    opprett_stafett(): Stafett
+}
+
+class Medlem {
+    navn: str
+    jente: bool
+    __init__(navn: str, jente: bool)
+}
+
+class Stafett {
+    lag: List<Lag>
+    __init__(løpere: list)
+    start()
+    vis_etappetider()
+    vis_resultatliste()
+}
+
+class Lag {
+    navn: str
+    løpere: List<Medlem>
+    etappetider: List[float]
+    __init__(navn: str, løpere: list)
+    registrer_etappetider()
+    vis_etappetider()
+    oppgi_sluttid(): float
+}
+
+Klubb "1" *-- "*" Medlem : består av
+Klubb "1" --> "*" Stafett : arrangerer
+Stafett "1" *-- "2" Lag : består av
+Lag "1" o-- "4" Medlem : har
+
+@enduml

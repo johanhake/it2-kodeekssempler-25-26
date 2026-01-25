@@ -1,0 +1,21 @@
+@startuml Realisering
+title Realisering
+
+class Konto {
+    konto_nr:str
+}
+
+class BSU_konto{
+    'Ikke pensum!'
+    {static} maks_årlig_sparebløp:float 
+}
+
+class Sparekonto{
+    'Ikke pensum!'
+    {static} maks_antall_uttak:int    
+}
+
+Konto <|.. BSU_konto
+Konto <|.. Sparekonto
+
+@enduml

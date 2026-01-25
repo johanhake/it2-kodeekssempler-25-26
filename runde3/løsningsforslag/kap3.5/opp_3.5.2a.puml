@@ -1,4 +1,5 @@
-@startuml transport
+@startuml assosiasjon
+title Assosiajon
 
 class Sjåfør{
     navn:str

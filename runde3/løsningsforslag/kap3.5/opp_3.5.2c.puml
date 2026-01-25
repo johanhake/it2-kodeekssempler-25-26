@@ -1,0 +1,15 @@
+@startuml Avhengighet
+title Avhengighet
+
+class Julenisse {
+    navn:str
+    pakk(gave:Gave)
+}
+
+class Gave {
+    navn:str
+}
+
+Julenisse .> Gave
+
+@enduml

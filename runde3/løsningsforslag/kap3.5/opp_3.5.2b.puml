@@ -1,0 +1,15 @@
+@startuml Komposisjon
+title Komposisjon
+
+class Robot {
+    navn:str
+    armer: list<Arm>
+}
+
+class Arm{
+    navn:str
+}
+
+Robot *-- Arm
+
+@enduml

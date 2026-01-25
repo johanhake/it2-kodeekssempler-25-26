@@ -1,0 +1,16 @@
+@startuml Aggregering
+title Aggregering
+
+class Prosjekt {
+    navn:str
+    medlemmer: list<Ansatt>
+    vis_prosjektgruppe()
+}
+
+class Ansatt {
+    navn:str
+}
+
+Prosjekt o-- Ansatt
+
+@enduml

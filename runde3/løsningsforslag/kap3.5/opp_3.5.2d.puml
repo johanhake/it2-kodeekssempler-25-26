@@ -1,0 +1,18 @@
+@startuml Generalisering
+title Generalisering
+
+class Person {
+    navn:str
+    hils()
+}
+
+class Elev{
+}
+
+class Lærer{
+}
+
+Person <|-- Elev
+Person <|-- Lærer
+
+@enduml
