@@ -13,8 +13,10 @@ vindu = pg.display.set_mode([BREDDE, HØYDE])
 pg.display.set_caption("Måne")
 
 # Måneparametrer
-x_måne = 500
-y_måne = 100
+R = 1000
+x0 = BREDDE / 2
+y0 = 1100
+alpha = 2*pi/3 # 120 grader
 
 fortsett = True
 while fortsett:
@@ -24,6 +26,12 @@ while fortsett:
 
     vindu.fill("darkblue") # Bakgrunn/himmel
     
+    alpha -= pi/200
+    
+    x_måne = x0 + R*cos(alpha)
+    y_måne = y0 - R*sin(alpha)
+    
+    pg.draw.circle(vindu, 'grey', (x_måne, y_måne), 40) # Måne
 
     # Tegn et hus
     pg.draw.rect(vindu, 'darkgreen', (0,350,600,150)) # Gress
@@ -36,9 +44,6 @@ while fortsett:
     pg.draw.rect(vindu, 'chocolate4', (225,300,50,100)) # Dør
     pg.draw.polygon(vindu, 'black', ((75,200),(250,100),(425,200))) # Tak
     pg.draw.rect(vindu, 'black', (300,100,50,100)) # Pipe
-    
-    pg.draw.circle(vindu, 'grey', (x_måne, y_måne), 40) # Måne
-
 
     pg.display.update()
     
