@@ -5,7 +5,6 @@ class Sprite{
     rect: Rect
     image: Surface
     {abstract} update(): None
-    {abstract} draw(): None
     'add(*groups): None
     'remove(*groups): None
     'kill(): None
@@ -13,8 +12,14 @@ class Sprite{
     'groups(): list<Group>
 }
 
-class SpilleObjekt{
+class SpilleObjekt1{
     app: App
+    update(): None
+}
+
+class SpilleObjekt2{
+    app: App
+    update(): None
 }
 
 class App{
@@ -28,7 +33,10 @@ class App{
     run(): None
 }
 
-Sprite <|-- SpilleObjekt
-App o--Sprite
+Sprite <|-- SpilleObjekt1
+Sprite <|-- SpilleObjekt2
+App *--Sprite
+App --* SpilleObjekt1
+App --* SpilleObjekt2
 
 @enduml
