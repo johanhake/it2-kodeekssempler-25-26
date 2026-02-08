@@ -1,0 +1,702 @@
+[
+    {
+        "klasse": 3,
+        "alder": 22,
+        "avgift": 7.25,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 38,
+        "avgift": 71.2833,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 26,
+        "avgift": 7.925,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 1,
+        "alder": 35,
+        "avgift": 53.1,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 35,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 28,
+        "avgift": 8.4583,
+        "påstigningshavn": "Queenstown",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 54,
+        "avgift": 51.8625,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 2,
+        "avgift": 21.075,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 27,
+        "avgift": 11.1333,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 14,
+        "avgift": 30.0708,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 4,
+        "avgift": 16.7,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 1,
+        "alder": 58,
+        "avgift": 26.55,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 20,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 39,
+        "avgift": 31.275,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 14,
+        "avgift": 7.8542,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 55,
+        "avgift": 16.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 2,
+        "avgift": 29.125,
+        "påstigningshavn": "Queenstown",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 26,
+        "avgift": 13.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 31,
+        "avgift": 18.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 21,
+        "avgift": 7.225,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 35,
+        "avgift": 26.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 34,
+        "avgift": 13.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 15,
+        "avgift": 8.0292,
+        "påstigningshavn": "Queenstown",
+        "overlevde": true
+    },
+    {
+        "klasse": 1,
+        "alder": 28,
+        "avgift": 35.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 8,
+        "avgift": 21.075,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 38,
+        "avgift": 31.3875,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 21,
+        "avgift": 7.225,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 19,
+        "avgift": 263.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 6,
+        "avgift": 7.8792,
+        "påstigningshavn": "Queenstown",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 21,
+        "avgift": 7.8958,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 40,
+        "avgift": 27.7208,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 40,
+        "avgift": 146.5208,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 42,
+        "avgift": 7.75,
+        "påstigningshavn": "Queenstown",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 66,
+        "avgift": 10.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 28,
+        "avgift": 82.1708,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 42,
+        "avgift": 52.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 7,
+        "avgift": 7.2292,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 21,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 18,
+        "avgift": 18.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 14,
+        "avgift": 11.2417,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 40,
+        "avgift": 9.475,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 27,
+        "avgift": 21.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 6,
+        "avgift": 7.8958,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 3,
+        "avgift": 41.5792,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 19,
+        "avgift": 7.8792,
+        "påstigningshavn": "Queenstown",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 19,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 21,
+        "avgift": 15.5,
+        "påstigningshavn": "Queenstown",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 23,
+        "avgift": 7.75,
+        "påstigningshavn": "Queenstown",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 25,
+        "avgift": 21.6792,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 18,
+        "avgift": 17.8,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 7,
+        "avgift": 39.6875,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 21,
+        "avgift": 7.8,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 49,
+        "avgift": 76.7292,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 29,
+        "avgift": 26.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 1,
+        "alder": 65,
+        "avgift": 61.9792,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 41,
+        "avgift": 35.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 21,
+        "avgift": 10.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 28,
+        "avgift": 7.2292,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 5,
+        "avgift": 27.75,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 11,
+        "avgift": 46.9,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 22,
+        "avgift": 7.2292,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 38,
+        "avgift": 80.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 1,
+        "alder": 45,
+        "avgift": 83.475,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 4,
+        "avgift": 27.9,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 45,
+        "avgift": 27.7208,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 45,
+        "avgift": 15.2458,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 29,
+        "avgift": 10.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 19,
+        "avgift": 8.1583,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 17,
+        "avgift": 7.925,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 26,
+        "avgift": 8.6625,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 32,
+        "avgift": 10.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 16,
+        "avgift": 46.9,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 21,
+        "avgift": 73.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 26,
+        "avgift": 14.4542,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 32,
+        "avgift": 56.4958,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 25,
+        "avgift": 7.65,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 25,
+        "avgift": 7.8958,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 25,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 0,
+        "avgift": 29.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 30,
+        "avgift": 12.475,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 22,
+        "avgift": 9.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 29,
+        "avgift": 9.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 5,
+        "avgift": 7.7875,
+        "påstigningshavn": "Queenstown",
+        "overlevde": true
+    },
+    {
+        "klasse": 1,
+        "alder": 28,
+        "avgift": 47.1,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 2,
+        "alder": 17,
+        "avgift": 10.5,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 33,
+        "avgift": 15.85,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 16,
+        "avgift": 34.375,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 5,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 23,
+        "avgift": 263.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 3,
+        "alder": 24,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 29,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 20,
+        "avgift": 7.8542,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 46,
+        "avgift": 61.175,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 26,
+        "avgift": 20.575,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 59,
+        "avgift": 7.25,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 3,
+        "alder": 5,
+        "avgift": 8.05,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 71,
+        "avgift": 34.6542,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": false
+    },
+    {
+        "klasse": 1,
+        "alder": 23,
+        "avgift": 63.3583,
+        "påstigningshavn": "Cherbourg",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 34,
+        "avgift": 23.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": true
+    },
+    {
+        "klasse": 2,
+        "alder": 34,
+        "avgift": 26.0,
+        "påstigningshavn": "Southampton",
+        "overlevde": false
+    }
+]
