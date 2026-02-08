@@ -6,7 +6,7 @@ from math import pi, cos, sin
 pg.init()
 
 BREDDE, HØYDE = 600, 500
-FPS = 24
+FPS = 50
 klokke = pg.time.Clock()
 
 vindu = pg.display.set_mode([BREDDE, HØYDE])
@@ -26,7 +26,7 @@ while fortsett:
 
     vindu.fill("darkblue") # Bakgrunn/himmel
     
-    alpha -= pi/200
+    alpha -= pi/400
     
     x_måne = x0 + R*cos(alpha)
     y_måne = y0 - R*sin(alpha)
@@ -36,7 +36,10 @@ while fortsett:
     # Tegn et hus
     pg.draw.rect(vindu, 'darkgreen', (0,350,600,150)) # Gress
     pg.draw.rect(vindu, 'red3', (100,200,300,200)) # Hus
-    pg.draw.rect(vindu, 'orange', (150,250,50,50)) # Vindu med lys
+    if y_måne < HØYDE:
+        pg.draw.rect(vindu, (50,50,50), (150,250,50,50)) # Vindu med lys
+    else:
+        pg.draw.rect(vindu, 'orange', (150,250,50,50)) # Vindu med lys
     pg.draw.rect(vindu, 'black', (150,250,50,50),2) # Vindusramme
     pg.draw.line(vindu, 'black', (175,250),(175,300),2) # Sprosse
     pg.draw.line(vindu, 'black', (150,275),(200,275),2) # Sprosse
