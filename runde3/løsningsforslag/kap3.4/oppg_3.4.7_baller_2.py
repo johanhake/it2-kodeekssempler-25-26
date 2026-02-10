@@ -9,18 +9,20 @@ KANTBREDDE = 20
 
 pg.init()
 
-antall_baller = 0
-
 class Ball(pg.sprite.Sprite):
     def __init__(self, app, x, y, vx, vy):
         super().__init__()
-        global antall_baller
         
-        if antall_baller < 20:
+        # Starter med å legge til appen og legge til appen i all_sprites
+        self.app = app
+        self.app.all_sprites.add(self)
+
+        # Sjekker hvor mange baller er det lagd?
+        if self.app.antall_baller < 20:
             farge = "red"
-        elif antall_baller < 40:
+        elif self.app.antall_baller < 40:
             farge = "green"
-        elif antall_baller < 60:
+        elif self.app.antall_baller < 60:
             farge = "blue"
         else:
             farge = "black"
@@ -31,11 +33,11 @@ class Ball(pg.sprite.Sprite):
 
         self.rect = self.image.get_rect()
         self.rect.x, self.rect.y = x-RADIUS, y-RADIUS
-        self.app = app
-        self.app.all_sprites.add(self)
         self.vx = vx
         self.vy = vy
-        antall_baller += 1
+        
+        # Øker antallet baller som er blitt lagd
+        self.app.antall_baller += 1
 
     def update(self):
         self.rect.x += self.vx
@@ -93,6 +95,9 @@ class App:
         pg.display.set_caption("PyGame mal")
         self.running = True
         self.all_sprites = pg.sprite.Group()
+        
+        # Hvor mange baller er lagd?
+        self.antall_baller = 0
         
         # Lager spilleobjektene
         Kant(self)
