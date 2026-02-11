@@ -1,0 +1,26 @@
+@startuml Bibliotek
+class Bibliotek {
+    bøker: list<Bok>
+    registrer(bok: Bok): None
+    søk(tittel:str): Bok/None
+    oversikt(): None
+}
+
+class Bok {
+    tittel: str
+    forfatter: str
+    vis(): None
+}
+
+class FysiskBok {
+    antall_sider: int
+}
+
+class EBok {
+    størrelse: int
+}
+
+Bibliotek o-- Bok
+Bok <|-- FysiskBok
+Bok <|-- EBok
+@enduml
