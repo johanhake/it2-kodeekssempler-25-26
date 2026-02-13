@@ -1,0 +1,24 @@
+@startuml Skole
+class Skole {
+    navn: str
+    klasser: list<Klasse>
+    registrer_klasse(klasse: Klasse): None
+    fjern_klasse(klasse: Klasse): None
+    oversikt(): None
+}
+
+class Klasse {
+    navn: str
+    elever: list<Elev>
+    registrer_elev(elev: Elev): None
+    fjern_elev(elev: Elev): None
+    oversikt(): None
+}
+
+class Elev {
+    navn: str
+}
+
+Skole o-- Klasse
+Klasse o-- Elev
+@enduml
