@@ -1,0 +1,27 @@
+@startuml bank
+
+class Kunde{
+    navn: str
+    kontoer: dict<Konto>
+    Konto åpne_konto(type: str, beløp: float)
+
+}
+
+class Konto{
+    kontonr: int
+    saldo: float
+    innskudd(beløp: float): None
+    uttak(beløp: float): bool
+}
+
+class Sparekonto{
+    int maks_uttak
+    int antall_uttak
+    uttak(float beløp): bool
+}
+
+
+Kunde --o Konto
+Konto <|-- Sparekonto
+
+@enduml
