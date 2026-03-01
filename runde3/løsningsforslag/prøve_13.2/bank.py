@@ -17,6 +17,13 @@ class Kunde:
 
         return konto
     
+    def oversikt(self):
+        print(f"Oversikt over kontoer til {self.navn}")
+        print("Kontotype Kontonr  Saldo")
+        print("-"*50)
+        for konto in self.kontoer.values():
+            print(konto)                
+    
 class Konto:
     def __init__(self, innskudd:float):
         global antall_kontonr
@@ -39,6 +46,9 @@ class Konto:
             return False
         self.saldo -= beløp
         return True
+    
+    def __str__(self):
+        return f"Konto     : {self.kontonr} | {self.saldo}"
 
 class Sparekonto(Konto):
     def __init__(self, innskudd):
@@ -53,3 +63,7 @@ class Sparekonto(Konto):
             self.antall_uttak += 1
             return True
         return False
+
+    def __str__(self):
+        return f"SpareKonto: {self.kontonr} | {self.saldo} | {self.maks_uttak - self.antall_uttak} antall uttak igjen"
+

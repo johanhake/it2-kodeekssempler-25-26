@@ -22,7 +22,8 @@ assert jannes.antall_uttak == 1, "Antall uttak igjen"
 jannes.uttak(5_000)
 jannes.uttak(5_000)
 jannes.uttak(5_000)
-assert jannes.antall_uttak == 4, "Antall uttak igjen"
+assert jannes.antall_uttak == 4, "Antall uttak gjort"
 assert not jannes.uttak(5_000), "Kan ikke ta flere uttak"
 
+janne.oversikt()
 
