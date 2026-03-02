@@ -3,7 +3,7 @@
 class Kunde{
     navn: str
     kontoer: dict<Konto>
-    Konto åpne_konto(type: str, beløp: float)
+    åpne_konto(type: str, beløp: float): Konto
     oversikt(): None
 }
 
@@ -19,11 +19,11 @@ class Sparekonto{
     int maks_uttak
     int antall_uttak
     uttak(float beløp): bool
-    str(): str
+    __str__(): str
 }
 
 
-Kunde --o Konto
+Kunde o-- Konto
 Konto <|-- Sparekonto
 
 @enduml
