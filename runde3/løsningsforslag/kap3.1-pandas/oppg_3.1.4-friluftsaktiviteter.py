@@ -5,12 +5,9 @@ df = pd.read_csv("friluftsaktiviteter.csv", encoding="utf-8",sep=";")
 
 # Filtrerer ut fylkene fra de lange kolonne navnene
 fylker = []
-for i, navn in enumerate(df): 
-    if i>0:
-        if "-" not in navn:
-            fylker.append(" ".join(navn.split()[5:]))
-        else:
-            fylker.append(navn.split()[5])
+for navn in df.columns: 
+    if navn != "friluftslivsaktivitet":
+        fylker.append(navn.split()[5])
             
 # Lager index til radene verdien til friluftslivsaktivitet
 df.index = df["friluftslivsaktivitet"]
