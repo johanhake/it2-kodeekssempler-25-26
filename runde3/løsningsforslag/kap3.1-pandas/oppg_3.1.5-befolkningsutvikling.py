@@ -14,7 +14,7 @@ df.columns = ["År", "Fødte", "Innflyttinger", "Utflyttinger"]
 
 df.index = df["År"]
 df = df.drop(columns=["År"])
-df = df.iloc[7:-1]
+df = df.iloc[6:-1]
 for kol in df:
     df[kol] = pd.to_numeric(df[kol])
 
@@ -30,20 +30,20 @@ def hent_inn_data():
     """ Funksjon til å hente inn data fra brukeren"""
     
     while True:
-        start = input("Tast inn start-år [1952-2023]: ")
-        slutt = input("Tast inn slutt-år [1952-2023]: ")
+        start = input(f"Tast inn start-år [{df.index[0]}-{df.index[-1]}]: ")
+        slutt = input(f"Tast inn slutt-år [{df.index[0]}-{df.index[-1]}]: ")
         if not start.isnumeric() or not slutt.isnumeric():
             print("FEIL: Tast inn tallverdier")
             continue
         
         start, slutt = int(start), int(slutt)
         
-        if not(1952 <= start <= 2023):
-            print("FEIL: Start-år må ligge i intervallet [1952, 2023]")
+        if not(df.index[0] <= start <= df.index[-1]):
+            print(f"FEIL: Start-år må ligge i intervallet [{df.index[0]}-{df.index[-1]}]")
             continue
         
-        if not(1952 <= slutt <= 2023):
-            print("FEIL: Slutt-år må ligge i intervallet [1952, 2023]")
+        if not(df.index[0] <= slutt <= df.index[-1]):
+            print(f"FEIL: Slutt-år må ligge i intervallet [{df.index[0]}-{df.index[-1]}]")
             continue
         
         if slutt - start <= 0:
