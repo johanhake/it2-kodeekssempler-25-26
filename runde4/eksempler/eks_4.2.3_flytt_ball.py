@@ -19,9 +19,15 @@ class Ball(pg.sprite.Sprite):
         self.app = app
         self.app.all_sprites.add(self)
         
-def update(self):
-    keys = pg.key.get_pressed()
-    # Fortsett her
+    def update(self):
+        keys = pg.key.get_pressed()
+        
+        if keys[pg.K_LEFT] and self.app.flytt:
+            self.rect.x -= self.dx
+        if keys[pg.K_RIGHT] and self.app.flytt:
+            self.rect.x += self.dx
+        
+        self.app.flytt = False
 
 class App:
     def __init__(self):

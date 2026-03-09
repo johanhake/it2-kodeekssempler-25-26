@@ -24,6 +24,7 @@ class Ball(pg.sprite.Sprite):
         self.app.all_sprites.add(self)
         self.vx = vx
         self.vy = vy
+        self.frame_start = self.app.frame
 
     def update(self):
         self.rect.x += self.vx
@@ -35,6 +36,10 @@ class Ball(pg.sprite.Sprite):
             
         if self.rect.bottom > HEIGHT or self.rect.top < 0:
             self.vy *= -1
+            
+        # Fjerner ballen etter 5 sekunder
+        if self.app.frame - self.frame_start > 5*FPS:
+            self.kill()
         
 class App:
     def __init__(self):
@@ -68,7 +73,7 @@ class App:
     def draw(self):
         self.screen.fill("black")
         self.all_sprites.draw(self.screen)
-        tekst = self.font.render(f"{self.frame}", True, "white")
+        tekst = self.font.render(f"{self.frame/FPS:.1f} s", True, "white")
         self.screen.blit(tekst, (20, 20))
         pg.display.update()
 

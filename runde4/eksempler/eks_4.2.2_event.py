@@ -22,6 +22,13 @@ class App:
         for event in pg.event.get():
             if event.type == pg.QUIT:
                 self.running = False
+                
+            if event.type == pg.KEYDOWN:
+                self.tast = pg.key.name(event.key)
+                self.vis_tastetrykk = True
+                
+            if event.type == pg.MOUSEBUTTONDOWN:
+                self.antall_museklikk += 1
 
     def update(self):
         pass
