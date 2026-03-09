@@ -14,9 +14,9 @@ display(df.head(3)[["sex", "age"]])
 print("3)")
 display(df.iloc[[9,29,19]])
 
-print(f"4) De dyreste bilettene kostet: {df['fare'].max():.2f} £\n   og gjennomsnittsprisen var: {df[df['fare']>0]['fare'].mean():.2f} £")
+print(f"4) De dyreste bilettene kostet: {df['fare'].max():.2f} £\n   og gjennomsnittsprisen var: {df['fare'][df['fare']>0].mean():.2f} £")
 
-print("6)")
+print("6) Antall barn, kvinner og menn")
 display(df.groupby("who").count()["survived"])
 
 print("8)")
