@@ -39,8 +39,8 @@ class App:
         pg.display.set_caption("Baller som kolliderer")
         self.running = True
         self.all_sprites = pg.sprite.Group()
-        Ball(self, "red", 5, "left")
-        Ball(self, "blue", -2, "right")
+        self.ball1 = Ball(self, "red", 5, "left")
+        self.ball2 = Ball(self, "blue", -2, "right")
 
     def handle_events(self):
         for event in pg.event.get():
@@ -48,7 +48,10 @@ class App:
                 self.running = False
 
     def update(self):
-        # if pg.sprite.collide_circle(sprite_1, sprite_2):
+        if pg.sprite.collide_circle(self.ball1, self.ball2):
+            self.ball1.collide()
+            self.ball2.collide()
+            
         # Fortsett her
         self.all_sprites.update()
 

@@ -20,7 +20,7 @@ class App:
             if event.type == pg.QUIT:
                 self.running = False
             if event.type == pg.MOUSEMOTION:
-                self.pos = (400, 400)
+                self.pos = event.pos
 
     def update(self):
         pass
