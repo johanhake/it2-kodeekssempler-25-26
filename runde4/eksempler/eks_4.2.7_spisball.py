@@ -1,0 +1,106 @@
+# Røde baller "spiser" grønne baller
+import pygame as pg
+from random import choice, randint
+
+# Innstillinger
+WIDTH, HEIGHT = 600, 600
+FPS = 24
+RED = (255, 0, 0)
+DARKGREEN = (0, 100, 0)
+BG_COLOR = (200, 200, 200)
+
+
+class Ball(pg.sprite.Sprite):
+    def __init__(self, app, color=RED):
+        super().__init__()
+        self.color = color
+        self.image = pg.Surface((50, 50), pg.SRCALPHA)
+        self.rect = self.image.get_rect()
+        self.radius = 25
+        pg.draw.circle(self.image, self.color, self.rect.center, self.radius)
+
+        # Sett tilfeldig startposisjon
+        self.rect.top = randint(0, HEIGHT - self.rect.height)
+        self.rect.left = randint(0, WIDTH - self.rect.width)
+
+        # Sett tilfeldig hastighet
+        self.speed = [choice([-1, 1]) * randint(1, 2), randint(1, 2)]
+        self.app = app
+        self.app.all_sprites.add(self)
+        if color == RED:
+            self.app.red_balls.add(self)
+        else:
+            self.app.green_balls.add(self)
+
+    def update(self):
+        # Beveg ballen
+        self.rect.move_ip(self.speed)
+
+        # Sprett tilbake fra kantene
+        if self.rect.left < 0 or self.rect.right > WIDTH:
+            self.speed[0] *= -1
+            self.rect.x = min(max(self.rect.x, 0), WIDTH - self.rect.width)
+
+        if self.rect.top < 0 or self.rect.bottom > HEIGHT:
+            self.speed[1] *= -1
+            self.rect.y = min(max(self.rect.y, 0), HEIGHT - self.rect.height)
+
+
+class App:
+    def __init__(self):
+        pg.init()
+        self.clock = pg.time.Clock()
+        self.screen = pg.display.set_mode((WIDTH, HEIGHT))
+        pg.display.set_caption('Røde baller "spiser" grønne baller')
+
+        # Opprett sprite-grupper
+        self.all_sprites = pg.sprite.Group()
+        self.red_balls = pg.sprite.Group()
+        self.green_balls = pg.sprite.Group()
+        
+        for _ in range(5):
+            Ball(self, RED)
+            Ball(self, DARKGREEN)
+        
+        self.running = True
+
+    def handle_events(self):
+        for event in pg.event.get():
+            if event.type == pg.QUIT:
+                self.running = False
+
+    def update(self):
+        # Sjekk for kollisjoner og fjern kolliderende grønne baller
+        kollisjoner = pg.sprite.groupcollide(
+            self.red_balls,
+            self.green_balls,
+            False,
+            False,
+            collided=pg.sprite.collide_circle,
+        )
+        
+        if kollisjoner:
+            print(kollisjoner.keys())
+
+        # Oppdater ballposisjoner
+        self.all_sprites.update()
+
+    def draw(self):
+        self.screen.fill(BG_COLOR)
+        self.all_sprites.draw(self.screen)
+        pg.display.update()
+
+    def run(self):
+        while self.running:
+            self.handle_events()
+            self.update()
+            self.draw()
+            self.clock.tick(FPS)
+        pg.quit()
+
+
+if __name__ == "__main__":
+    app = App()
+    app.run()
+
+# Smidig IT-2 © TIP AS, 2024
