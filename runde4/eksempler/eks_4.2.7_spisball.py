@@ -75,7 +75,7 @@ class App:
             self.red_balls,
             self.green_balls,
             False,
-            False,
+            True,
             collided=pg.sprite.collide_circle,
         )
         

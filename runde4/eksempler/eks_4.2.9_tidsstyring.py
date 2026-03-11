@@ -51,16 +51,16 @@ class App:
         
         # ALTERNATIV 3a (Fast tidsintervall)
         # lag en burkerdefinert hendelse hvert 2. sekund
-        #pg.time.set_timer(GRØNNBALL, 2000)
+        pg.time.set_timer(GRØNNBALL, 2000)
         
         # ALTERNATIV 3b (Fast tidsintervall, men en annen hendelse)
         # lag en annen burkerdefinert hendelse hvert 0.5. sekund
-        #pg.time.set_timer(ORANGEBALL, 500)
+        pg.time.set_timer(ORANGEBALL, 500)
         
         # ALTERNATIV 4 (Tilfeldig tidsintervall, også en annen hendelse)
         # lag en annen brukerdefinert hendelse ved tilfeldig tispunkt
         # i snitt hvert 1. sekund
-        #pg.time.set_timer(PURPLEBALL, randint(500, 1500), loops=1)
+        pg.time.set_timer(PURPLEBALL, randint(500, 1500), loops=1)
 
     def handle_events(self):
         for event in pg.event.get():
@@ -84,9 +84,9 @@ class App:
         # ALTERNATIV 2 (Fast tidsintervall)
         # legg til en ny blå ball hvert sekund
         # Husk å sette self.timer = pg.time.get_ticks() i __init__
-        # if pg.time.get_ticks() - self.timer > 1000:
-        #     self.timer = pg.time.get_ticks()
-        #     Ball(self, "blue")
+        if pg.time.get_ticks() - self.timer > 1000:
+            self.timer = pg.time.get_ticks()
+            Ball(self, "blue")
 
         # Kun for å sjekke at ballene fjernes fra minnet
         # når de er utenfor vinduet.

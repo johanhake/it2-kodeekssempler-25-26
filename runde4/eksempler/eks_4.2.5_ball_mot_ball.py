@@ -72,5 +72,3 @@ class App:
 if __name__ == "__main__":
     app = App()
     app.run()
-
-# Smidig IT-2 © TIP AS, 2024

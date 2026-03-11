@@ -76,15 +76,16 @@ class App:
 
     def update(self):
         self.frame += 1
+        
         # Plasser en ny ball på banen med jevne mellomrom
         if self.frame % FPS == 0:
             Ball(self)
 
         # Detekter kollisjon  mellom padden og ballene
-        hits = pg.sprite.spritecollide(self.padde, self.all_sprites, False)
+        hits = pg.sprite.spritecollide(self.padde, self.baller, True)
         for hit in hits:
-            pass
             # Sjekk hva som kolliderer og bruk så collide i Ball. 
+            hit.collide(self.padde)
 
         self.all_sprites.update()
 
