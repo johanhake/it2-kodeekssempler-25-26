@@ -58,7 +58,7 @@ Boks   -u-|> Sprite
 
 PacTroll *-d- Troll 
 PacTroll *-d- Mat
-PacTroll *-d- Hinder 
+PacTroll o-d- Hinder 
 PacTroll *-u- Group : hindre
 PacTroll *-u- Group : matbiter
 PacTroll *-u- Group : all_sprites
