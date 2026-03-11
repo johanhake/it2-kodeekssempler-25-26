@@ -1,0 +1,66 @@
+@startuml PacTroll
+skinparam dpi 300
+skinparam classAttributeIconSize 0
+
+package "pygame.sprite" {
+    class Sprite {
+    }
+
+    class Group {
+        add(sprite)
+        draw()
+    }
+    Group "*" -r- "*" Sprite
+}
+
+class Boks {
+    image : Surface
+    rect : Rect
+    app : App
+    __init__(app: App, farge: str, bokstav: str, x: int, y: int)
+}
+
+class Troll {
+    hastighet : float
+    __init__(app: App)
+    update() : None
+}
+
+class Mat {
+    __init__(app: App)
+}
+
+class Hinder {
+    __init__(app: App)
+}
+
+class PacTroll {
+    clock : Clock
+    screen : Surface
+    running : bool
+    game_over : bool
+    poeng : int
+    troll : Troll
+    hindre : Group
+    matbiter : Group
+    all_sprites : Group
+    __init__()
+    handle_events()
+    update()
+    draw()
+    run()
+}
+
+Troll  -u-|> Boks
+Mat    -u-|> Boks
+Hinder -u-|> Boks
+Boks   -u-|> Sprite
+
+PacTroll *-d- Troll 
+PacTroll *-d- Mat
+PacTroll *-d- Hinder 
+PacTroll *-u- Group : hindre
+PacTroll *-u- Group : matbiter
+PacTroll *-u- Group : all_sprites
+
+@enduml
