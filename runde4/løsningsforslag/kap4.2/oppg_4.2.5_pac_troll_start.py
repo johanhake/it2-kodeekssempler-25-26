@@ -65,7 +65,7 @@ class Mat(Boks):
 
 class Hinder(Boks):
     def __init__(self, app):
-        super().__init__(app, "gray", "H", x, y)
+        super().__init__(app, "gray", "H")
         self.app.hindre.add(self)
 
 class App:
