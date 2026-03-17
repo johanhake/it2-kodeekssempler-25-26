@@ -22,6 +22,7 @@ class Boks {
 
 class Troll {
     hastighet : float
+    ikke_aktiverte_hinder : list<Hinder>
     __init__(app: App)
     update() : None
 }
@@ -31,10 +32,10 @@ class Mat {
 }
 
 class Hinder {
-    __init__(app: App)
+    __init__(app: App, x: int, y: int)
 }
 
-class PacTroll {
+class App {
     clock : Clock
     screen : Surface
     running : bool
@@ -56,11 +57,11 @@ Mat    -u-|> Boks
 Hinder -u-|> Boks
 Boks   -u-|> Sprite
 
-PacTroll *-d- Troll 
-PacTroll *-d- Mat
-PacTroll o-d- Hinder 
-PacTroll *-u- Group : hindre
-PacTroll *-u- Group : matbiter
-PacTroll *-u- Group : all_sprites
+App *-d- Troll 
+App *-d- Mat
+App o-d- Hinder 
+App *-u- Group : hindre
+App *-u- Group : matbiter
+App *-u- Group : all_sprites
 
 @enduml
