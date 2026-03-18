@@ -69,6 +69,9 @@ class Troll(Boks):
         if keys[K_DOWN]:
             self.rect.y += self.hastighet
            
+        # Hindrer Trollet å gå utenfor spillebrettet
+        self.rect.clamp_ip(0,0,BREDDE, HØYDE)
+        
         # Sjekker om vi skal aktiverer Hinderet
         if self.ikke_aktiverte_hinder:
     
