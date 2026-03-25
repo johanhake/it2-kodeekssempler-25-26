@@ -55,15 +55,16 @@ class Menneske(SpilleObjekt):
         # Finner farten
         v = VS if self.har_sau else V
 
-        # Sjekker tastene asdw (og piltaster)
+        # Sjekker tastene asdw (og piltaster) bruker -= og += slik at effekten av å 
+        # holde inn både venstre og høyre tast nuller ut hverandre. 
         if pressed_keys[K_a] or pressed_keys[K_LEFT]:
-            vx = -v
+            vx -= v
         if pressed_keys[K_d] or pressed_keys[K_RIGHT]:
-            vx = v
+            vx += v
         if pressed_keys[K_w] or pressed_keys[K_UP]:
-            vy = -v
+            vy -= v
         if pressed_keys[K_s] or pressed_keys[K_DOWN]:
-            vy = v
+            vy += v
 
         # Flytter mennesket
         self.rect.move_ip(vx, vy)
@@ -72,14 +73,16 @@ class Menneske(SpilleObjekt):
         for hindring in pg.sprite.spritecollide(self, self.app.hindringer, False):
             # Sjekker om det er en horrisontal eller en vertikal kollissjon 
             # NB! Denne sjekken er rett og slett litt buggy...
-            if abs(hindring.rect.center[0] - self.rect.center[0]) > abs(hindring.rect.center[1] - self.rect.center[1]):
+            avstand_x = abs(hindring.rect.center[0] - self.rect.center[0])
+            avstand_y = abs(hindring.rect.center[1] - self.rect.center[1])
+            if avstand_x > avstand_y:
                 # Hvis horrisontal sjekke hvilken side vi er på og flytter mennesket tilsvarende
                 if vx > 0:
                     self.rect.right = hindring.rect.left
                 else:
                     self.rect.left = hindring.rect.right
                     
-            if abs(hindring.rect.center[0] - self.rect.center[0]) < abs(hindring.rect.center[1] - self.rect.center[1]):
+            if avstand_x < avstand_y:
                 # Hvis vertikal sjekke hvilken side vi er på og nullstiller ev fart i y retning
                 if vy > 0:
                     self.rect.bottom = hindring.rect.top
