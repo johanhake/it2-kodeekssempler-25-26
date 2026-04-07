@@ -42,3 +42,4 @@ df_akt.plot.bar()
 plt.figure()
 plt.title(f"Tidsbruk aktivitetskategorier: {valgt_kjønn}")
 df_kat.plot.pie()
+plt.ylabel("") # Fjerner navn på yaksen
