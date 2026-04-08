@@ -8,7 +8,10 @@ fagområden = list(set(df["Fagomraadenavn"]))
 
 # Oppgave a)
 df_fagområden = df.groupby("Fagomraadenavn").sum()
-display(df_fagområden[["2022-23","2023-24","2024-25"]])
+# Legger til en liten kuriositet som ikke er nødvendig, nemlig å vise antallet fag per fagområde
+df_fagområden["Antall fag"] = df.groupby("Fagomraadenavn").count()["Opplaeringsfagnavn"]
+
+display(df_fagområden[["Antall fag", "2022-23","2023-24","2024-25"]])
 
 # Oppgave b)
 print(", ".join(fagområden))
@@ -30,7 +33,8 @@ abs_sort = df_valgt.sort_values("diff-22-24")
 prosent_sort = df_valgt.sort_values("prosent-diff-22-24")
 
 # Henter ut første eller siste element fra tabellen og viser fagnavnet og verdien på oppgang (nedgang)
-print("Størst absolutt oppgang (minst nedgang)", abs_sort.iloc[-1]["Opplaeringsfagnavn"], abs_sort.iloc[-1]["diff-22-24"])
-print("Størst absolutt nedgang (minst oppgang)", abs_sort.iloc[0]["Opplaeringsfagnavn"], abs_sort.iloc[0]["diff-22-24"])
-print("Størst prosentvise oppgang (minst nedgang)", prosent_sort.iloc[-1]["Opplaeringsfagnavn"], prosent_sort.iloc[-1]["prosent-diff-22-24"], "%")
-print("Størst prosentvise nedgang (minst oppgang)", prosent_sort.iloc[0]["Opplaeringsfagnavn"], prosent_sort.iloc[0]["prosent-diff-22-24"], "%")
+print("Største endringer mellom 22-23 og 24-25")
+print(f"Størst absolutt oppgang (minst nedgang): '{abs_sort.iloc[-1]["Opplaeringsfagnavn"]}' | {abs_sort.iloc[-1]["diff-22-24"]}")
+print(f"Størst absolutt nedgang (minst oppgang): '{abs_sort.iloc[0]["Opplaeringsfagnavn"]}' | {abs_sort.iloc[0]["diff-22-24"]}")
+print(f"Størst prosentvise oppgang (minst nedgang): '{prosent_sort.iloc[-1]["Opplaeringsfagnavn"]}' | {prosent_sort.iloc[-1]["prosent-diff-22-24"]} %")
+print(f"Størst prosentvise nedgang (minst oppgang): '{prosent_sort.iloc[0]["Opplaeringsfagnavn"]}' | {prosent_sort.iloc[0]["prosent-diff-22-24"]} %")
