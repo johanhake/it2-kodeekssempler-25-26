@@ -173,7 +173,7 @@
     "Opplaeringsfagnavn":"Teaterproduksjon fordypning 2",
     "2022-23":"28",
     "2023-24":"18",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Estetiske fag",
@@ -212,8 +212,8 @@
     "Fagomraadenavn":"Kunst- og h\u00ef\u00bf\u00bdndverksfag",
     "Opplaeringsfagnavn":"Design og arkitektur 3",
     "2022-23":"22",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Estetiske fag",
@@ -260,8 +260,8 @@
     "Fagomraadenavn":"Kunst- og h\u00ef\u00bf\u00bdndverksfag",
     "Opplaeringsfagnavn":"Kunst og visuelle virkemidler 1",
     "2022-23":"5",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Estetiske fag",
@@ -284,8 +284,8 @@
     "Fagomraadenavn":"Kunst- og h\u00ef\u00bf\u00bdndverksfag",
     "Opplaeringsfagnavn":"Kunst og visuelle virkemidler 3",
     "2022-23":"22",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Estetiske fag",
@@ -445,7 +445,7 @@
     "Opplaeringsfagnavn":"Historie vg3,studieforberedende utdanningsprogram",
     "2022-23":"269",
     "2023-24":"13",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Historie og samfunn",
@@ -477,7 +477,7 @@
     "Opplaeringsfagnavn":"Historie, vg3 p\u00ef\u00bf\u00bdbygging til generell studiekompetanse",
     "2022-23":"168",
     "2023-24":"3",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Historie og samfunn",
@@ -971,8 +971,8 @@
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Finsk som andrespr\u00ef\u00bf\u00bdk",
     "Opplaeringsfagnavn":"Kvensk eller finsk som andrespr\u00ef\u00bf\u00bdk, vg3 p\u00ef\u00bf\u00bdbygging til generell studiekompetanse",
-    "2022-23":null,
-    "2023-24":null,
+    "2022-23":0,
+    "2023-24":0,
     "2024-25":"1"
   },
   {
@@ -1005,15 +1005,15 @@
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 1, vg3 studieforberedende utdanningsprogram",
     "2022-23":"5",
     "2023-24":"1",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Grunnleggende norsk",
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 1, vg3 p\u00c3\u00a5bygging til generell studiekompetanse",
     "2022-23":"1",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
@@ -1059,8 +1059,8 @@
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Grunnleggende norsk",
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 2, vg3 p\u00c3\u00a5bygging til generell studiekompetanse",
-    "2022-23":null,
-    "2023-24":null,
+    "2022-23":0,
+    "2023-24":0,
     "2024-25":"5"
   },
   {
@@ -1076,7 +1076,7 @@
     "Fagomraadenavn":"Grunnleggende norsk",
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 2, vg2 yrkesfaglige utdanningsprogram",
     "2022-23":"18",
-    "2023-24":null,
+    "2023-24":0,
     "2024-25":"5"
   },
   {
@@ -1093,7 +1093,7 @@
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 3, vg2 studieforberedende utdanningsprogram",
     "2022-23":"3",
     "2023-24":"1",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
@@ -1101,39 +1101,39 @@
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 3, vg3 studieforberedende utdanningsprogram",
     "2022-23":"26",
     "2023-24":"2",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Grunnleggende norsk",
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 3, vg3 p\u00c3\u00a5bygging til generell studiekompetanse",
     "2022-23":"1",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Grunnleggende norsk",
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 3, vg1 yrkesfaglige utdanningsprogram",
     "2022-23":"23",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Grunnleggende norsk",
     "Opplaeringsfagnavn":"Grunnleggende norsk for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 3, vg2 yrkesfaglige utdanningsprogram",
     "2022-23":"10",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Morsm\u00ef\u00bf\u00bdl",
     "Opplaeringsfagnavn":"Morsm\u00ef\u00bf\u00bdl for spr\u00ef\u00bf\u00bdklige minoriteter, niv\u00ef\u00bf\u00bd 2",
-    "2022-23":null,
+    "2022-23":0,
     "2023-24":"6",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
@@ -1261,13 +1261,13 @@
     "Opplaeringsfagnavn":"Norsk for elever med tegnspr\u00ef\u00bf\u00bdk vg3 p\u00ef\u00bf\u00bdbygging til generell studiekompetanse",
     "2022-23":"4",
     "2023-24":"1",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Norsk for d\u00ef\u00bf\u00bdve og sterkt tungh\u00ef\u00bf\u00bdrte",
     "Opplaeringsfagnavn":"Norsk for elever med tegnspr\u00ef\u00bf\u00bdk vg3 studieforberedende utdanningsprogram",
-    "2022-23":null,
+    "2022-23":0,
     "2023-24":"5",
     "2024-25":"8"
   },
@@ -1381,13 +1381,13 @@
     "Opplaeringsfagnavn":"Norsk tegnspr\u00ef\u00bf\u00bdk vg3 p\u00ef\u00bf\u00bdbygging til generell studiekompetanse",
     "2022-23":"2",
     "2023-24":"3",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Norsk tegnspr\u00ef\u00bf\u00bdk",
     "Opplaeringsfagnavn":"Norsk tegnspr\u00ef\u00bf\u00bdk vg3 studieforberedende utdanningsprogram",
-    "2022-23":null,
+    "2022-23":0,
     "2023-24":"3",
     "2024-25":"7"
   },
@@ -1427,7 +1427,7 @@
     "Fagkategorinavn":"Norsk og morsm\u00ef\u00bf\u00bdl",
     "Fagomraadenavn":"Styrket samisk",
     "Opplaeringsfagnavn":"Samisk, styrket oppl\u00ef\u00bf\u00bdring",
-    "2022-23":null,
+    "2022-23":0,
     "2023-24":"1",
     "2024-25":"3"
   },
@@ -1628,7 +1628,7 @@
     "Fagomraadenavn":"Matematikk",
     "Opplaeringsfagnavn":"Matematikk 1T-Y BA",
     "2022-23":"6",
-    "2023-24":null,
+    "2023-24":0,
     "2024-25":"6"
   },
   {
@@ -1644,8 +1644,8 @@
     "Fagomraadenavn":"Matematikk",
     "Opplaeringsfagnavn":"Matematikk 1T-Y HS",
     "2022-23":"1",
-    "2023-24":null,
-    "2024-25":null
+    "2023-24":0,
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Realfag",
@@ -1749,7 +1749,7 @@
     "Opplaeringsfagnavn":"Naturfag vg1 DT, samisk plan",
     "2022-23":"2",
     "2023-24":"5",
-    "2024-25":null
+    "2024-25":0
   },
   {
     "Fagkategorinavn":"Realfag",
