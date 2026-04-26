@@ -1,0 +1,25 @@
+@startuml bank
+
+class Tur{
+    destinasjon: str
+    turleder: Turleder
+    turedeltakere: list<Medlem>
+    meld_på(turgåer: Medlem):bool
+    info(): str
+}
+
+class Medlem{
+    medlemsnr: int
+    navn: str
+}
+
+class Turleder{
+    min_deltaker: int
+    maks_deltakere: int    
+}
+
+Tur *-- Turleder
+Tur o-- Medlem
+Turleder --|> Medlem
+
+@enduml
