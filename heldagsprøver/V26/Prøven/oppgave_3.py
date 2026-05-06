@@ -18,14 +18,19 @@ df["Total energiproduksjon"] = df[produksjon].sum(axis=1)
 display(df[df.index>2014][["Total energiforbruk", "Total energiproduksjon"]])
 
 # Oppgave b)
-df["Vannkraft prosentandel"] = (df["Vannkraftproduksjon"]/df["Total energiproduksjon"]*100).round(1)
+df["Vannkraft prosentandel"] = (df["Vannkraftproduksjon"]/df["Total energiproduksjon"]*100).round(0).astype(int)
 display(df.sort_values("Vannkraftproduksjon", ascending=False).iloc[:5][["Vannkraftproduksjon", "Vannkraft prosentandel"]])
 
 # Oppgave c)
-valgt_år = int(input("Velg et år mellom 1960 og 2000"))
-while not (1960 <= valgt_år <= 2000):
-    valgt_år = int(input("Velg et år mellom 1960 og 2000"))
-
+korrekt_valg = False
+while not korrekt_valg:
+    valgt_år = input("Velg et år mellom 1960 og 2000")
+    if not valgt_år.isnumeric():
+        continue
+    valgt_år = int(valgt_år)
+    if (1960 <= valgt_år <= 2000):
+        korrekt_valg = True
+    
 år = [i for i in range(valgt_år, 2025)]
 df["Differanse"] = df["Import"] - df["Eksport"]
 df["Eksport"] = -df["Eksport"]
